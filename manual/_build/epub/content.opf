@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en"
+ unique-identifier="unknown"
+ prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf"
+        xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>en</dc:language>
+    <dc:title>personal investment</dc:title>
+    <dc:description>unknown</dc:description>
+    <dc:creator>najnesnaj@yahoo.com</dc:creator>
+    <dc:contributor>unknown</dc:contributor>
+    <dc:publisher>najnesnaj@yahoo.com</dc:publisher>
+    <dc:rights>2021, jj</dc:rights>
+    <dc:identifier id="unknown">unknown</dc:identifier>
+    <dc:date>2022-01-15T01:04:03Z</dc:date>
+    <meta property="dcterms:modified">2022-01-15T01:04:03Z</meta>
+    <meta property="ibooks:version">beta</meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:binding">true</meta>
+    <meta property="ibooks:scroll-axis">vertical</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="epub-0" href="about.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-1" href="genindex.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-2" href="index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-3" href="indonesia.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-4" href="russia.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-5" href="_images/indonesia_17_1.png" media-type="image/png" />
+    <item id="epub-6" href="_images/indonesia_23_1.png" media-type="image/png" />
+    <item id="epub-7" href="_images/indonesia_25_2.png" media-type="image/png" />
+    <item id="epub-8" href="_images/indonesia_27_2.png" media-type="image/png" />
+    <item id="epub-9" href="_images/indonesia_29_0.png" media-type="image/png" />
+    <item id="epub-10" href="_images/indonesia_31_0.png" media-type="image/png" />
+    <item id="epub-11" href="_images/russia_20_1.png" media-type="image/png" />
+    <item id="epub-12" href="_images/russia_23_2.png" media-type="image/png" />
+    <item id="epub-13" href="_images/russia_25_2.png" media-type="image/png" />
+    <item id="epub-14" href="_images/russia_27_2.png" media-type="image/png" />
+    <item id="epub-15" href="_static/basic.css" media-type="text/css" />
+    <item id="epub-16" href="_static/epub.css" media-type="text/css" />
+    <item id="epub-17" href="_static/file.png" media-type="image/png" />
+    <item id="epub-18" href="_static/minus.png" media-type="image/png" />
+    <item id="epub-19" href="_static/plus.png" media-type="image/png" />
+    <item id="epub-20" href="_static/pygments.css" media-type="text/css" />
+  </manifest>
+  <spine toc="ncx" page-progression-direction="ltr">
+    <itemref idref="epub-2" />
+    <itemref idref="epub-0" />
+    <itemref idref="epub-3" />
+    <itemref idref="epub-4" />
+    <itemref idref="epub-1" />
+  </spine>
+  <guide>
+    <reference type="toc" title="Table of Contents" href="index.xhtml" />
+  </guide>
+</package>

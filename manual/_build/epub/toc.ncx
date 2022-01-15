@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="unknown"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>personal investment</text>
+  </docTitle>
+  <navMap>    
+    <navPoint id="navPoint1" playOrder="1">
+      <navLabel>
+        <text>INDEX</text>
+      </navLabel>
+      <content src="index.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint2" playOrder="2">
+      <navLabel>
+        <text>About</text>
+      </navLabel>
+      <content src="about.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint3" playOrder="3">
+      <navLabel>
+        <text>EM Indonesia</text>
+      </navLabel>
+      <content src="indonesia.xhtml" />  
+      <navPoint id="navPoint4" playOrder="3">
+        <navLabel>
+          <text>EM Indonesia</text>
+        </navLabel>
+        <content src="indonesia.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint5" playOrder="4">
+        <navLabel>
+          <text>relationship between currency rate - inflation - stockexchange</text>
+        </navLabel>
+        <content src="indonesia.xhtml#relationship-between-currency-rate-inflation-stockexchange" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint6" playOrder="5">
+      <navLabel>
+        <text>EM Russia</text>
+      </navLabel>
+      <content src="russia.xhtml" />  
+      <navPoint id="navPoint7" playOrder="5">
+        <navLabel>
+          <text>EM Russia</text>
+        </navLabel>
+        <content src="russia.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint8" playOrder="6">
+        <navLabel>
+          <text>relationship between currency rate - inflation - stockexchange</text>
+        </navLabel>
+        <content src="russia.xhtml#relationship-between-currency-rate-inflation-stockexchange" />  
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
