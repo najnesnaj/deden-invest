@@ -5,6 +5,8 @@ CREATE TABLE IF NOT EXISTS "analyse1" (
 	"ISIN-code financieel instrument"	TEXT,
 	"Soort transactie"	TEXT,
 	"Totaal bedrag"	REAL,
-	"Prijs" REAL
+	"Prijs" REAL,
+	"Datum" TIMESTAMP,
+	"percentage" INTEGER
 );
 COMMIT;

@@ -115,8 +115,8 @@ def getrecordsfsma(table):
             recordclean(lijst, URLREC)	
 
 
-datumvan='2021-07-14'
-datumtot='2021-09-14'
+datumvan='2020-06-01'
+datumtot='2020-12-30'
 
 enddate = datumvan
 

@@ -1,4 +1,12 @@
 import sqlite3
+from datetime import datetime
+import csv
+
+
+#    for row in dr:
+#        print (row['ISIN'],row['Symbol'])
+    #    student_info = [(i['Datum'], i['Naam']) for i in dr]
+    #    print(student_info)
 
 
 #insert records into database 
@@ -6,7 +14,7 @@ import sqlite3
 def readdb():
     sqliteConnection = sqlite3.connect('sample2.sqlite')
     conn = sqlite3.connect('sample2.sqlite')
-    cursor = sqliteConnection.cursor()
+   # cursor = sqliteConnection.cursor()
     cursor = conn.cursor()
     try:
         cursor.execute('''SELECT * from newfsma;''')
@@ -32,13 +40,22 @@ def readdb():
             classif =  (switcher.get(row[3].strip(),0))
             typtr =  (typtrans.get(row[9].strip(),0))
             weighted = classif + typtr
+            datum = datetime.strptime(row[11].strip(), '%d/%m/%Y')
+            symbol = "EMPTY"
+            with open('Euronext_Equities_2022-01-19.csv', 'r') as fin:
+                dr = csv.DictReader(fin,delimiter=';')
+                for rij in dr:
+                 #print (row['ISIN'],row['Symbol'])
+                    if (rij['ISIN'] == row[7].strip()):
+                        symbol = (rij['Symbol'] + '.BR')
             cursor.execute('''INSERT INTO analyse1 (
                     "URL",
                     "classificatie", 
                     "ISIN-code financieel instrument", 
                     "Soort transactie", 
                     "Totaal bedrag", 
-                    "Prijs" ) VALUES(?,?,?,?,?,?)''' , (row[0],weighted,row[7],row[8],row[15],row[14]))
+                    "Prijs",
+                    "Datum") VALUES(?,?,?,?,?,?,?)''' , (row[0],weighted,symbol,row[8],row[15],row[14],datum))
             conn.commit()
 
     except sqlite3.Error as error:
