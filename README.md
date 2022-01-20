@@ -41,6 +41,19 @@ The purpose of this project is to :
 - analyse pricing of certain assets
 - benchmark own portfolio
 
+### documentation
+
+## Where To Start?
+I'm in the process of automatically generating Documentation, including python notebooks with country reports (mainly emerging markets)
+
+
+ - [pdf](invest.pdf)
+ - [epub](personalinvestment.epub)
+ - [html](https://najnesnaj.github.io/deden-invest/html)
+ - [md](https://najnesnaj.github.io/deden-invest/)
+
+
+
 
 ## TODO
 - bond-futures, CDS, ...  (smart money, markettiming)
