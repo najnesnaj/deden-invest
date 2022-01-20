@@ -42,13 +42,13 @@ The purpose of this project is to :
 - benchmark own portfolio
 
 
-##TODO
+## TODO
 - bond-futures, CDS, ...  (smart money, markettiming)
 - value investor data (13F) (what are intelligent investors up to?)
 - shopping list (monitor pricing)
 
 
-##DONE
+## DONE
 - python script to scrape Belgian insider website 
 - country report on a few EM
 
