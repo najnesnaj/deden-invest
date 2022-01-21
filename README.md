@@ -53,6 +53,11 @@ I'm in the process of automatically generating Documentation, including python n
  - [md](https://najnesnaj.github.io/deden-invest/)
 
 
+## Launching notebooks
+You can have a look a the notebooks and execute the code from the "binder" website.
+You can find the the notebooks under the notebooks directory.
+
+ - [launch](https://mybinder.org/v2/gh/najnesnaj/deden-invest/main)
 
 
 ## TODO
