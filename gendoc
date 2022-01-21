@@ -11,5 +11,10 @@ cp _build/epub/*.epub ..
 cp -rfp _build/markdown/*  ../docs
 cp -rfp _build/html  ../docs/html
 cd ../docs
+cd html
+sed -i 's/_images/images/g' *html
+sed -i 's/_static/images/g' *html
+mv _images images
+mv _static static
 #echo "[view doc in html](html)" > index.md
 #find -name '*md' |sed -e 's,^\./,,' | awk '{print "["$1"]" "(" $1 ")   "}' >> index.md

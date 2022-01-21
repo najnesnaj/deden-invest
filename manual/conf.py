@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'personal investment'
-copyright = '2021, jj'
+copyright = '2022, jj'
 author = 'najnesnaj@yahoo.com'
 
 # The short X.Y version
 version = 'beta'
 # The full version, including alpha/beta/rc tags
-release = '1.2.0'
+release = '1.0.0'
 
 spelling_word_list_filename=['spelling_mywordlist.txt']
 # -- General configuration ---------------------------------------------------
@@ -44,7 +44,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -110,7 +110,7 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
