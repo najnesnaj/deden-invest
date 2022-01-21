@@ -4,3 +4,5 @@
 \contentsline {section}{\numberline {2.1}relationship between currency rate \sphinxhyphen {} inflation \sphinxhyphen {} stockexchange}{3}{section.2.1}%
 \contentsline {chapter}{\numberline {3}EM Russia}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}relationship between currency rate \sphinxhyphen {} inflation \sphinxhyphen {} stockexchange}{9}{section.3.1}%
+\contentsline {chapter}{\numberline {4}EM Turkey}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}relationship between currency rate \sphinxhyphen {} inflation \sphinxhyphen {} stockexchange}{13}{section.4.1}%

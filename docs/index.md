@@ -14,3 +14,9 @@
 
 
     * relationship between currency rate - inflation - stockexchange
+
+
+* EM Turkey
+
+
+    * relationship between currency rate - inflation - stockexchange

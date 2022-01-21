@@ -58,5 +58,23 @@
         <content src="russia.xhtml#relationship-between-currency-rate-inflation-stockexchange" />  
       </navPoint>
     </navPoint>
+    <navPoint id="navPoint9" playOrder="7">
+      <navLabel>
+        <text>EM Turkey</text>
+      </navLabel>
+      <content src="turkey.xhtml" />  
+      <navPoint id="navPoint10" playOrder="7">
+        <navLabel>
+          <text>EM Turkey</text>
+        </navLabel>
+        <content src="turkey.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint11" playOrder="8">
+        <navLabel>
+          <text>relationship between currency rate - inflation - stockexchange</text>
+        </navLabel>
+        <content src="turkey.xhtml#relationship-between-currency-rate-inflation-stockexchange" />  
+      </navPoint>
+    </navPoint>
   </navMap>
 </ncx>

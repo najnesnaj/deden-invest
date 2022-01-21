@@ -12,8 +12,8 @@
     <dc:publisher>najnesnaj@yahoo.com</dc:publisher>
     <dc:rights>2022, jj</dc:rights>
     <dc:identifier id="unknown">unknown</dc:identifier>
-    <dc:date>2022-01-21T13:33:17Z</dc:date>
-    <meta property="dcterms:modified">2022-01-21T13:33:17Z</meta>
+    <dc:date>2022-01-21T21:10:32Z</dc:date>
+    <meta property="dcterms:modified">2022-01-21T21:10:32Z</meta>
     <meta property="ibooks:version">beta</meta>
     <meta property="ibooks:specified-fonts">true</meta>
     <meta property="ibooks:binding">true</meta>
@@ -27,29 +27,36 @@
     <item id="epub-2" href="index.xhtml" media-type="application/xhtml+xml" />
     <item id="epub-3" href="indonesia.xhtml" media-type="application/xhtml+xml" />
     <item id="epub-4" href="russia.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-5" href="_images/indonesia_17_1.png" media-type="image/png" />
-    <item id="epub-6" href="_images/indonesia_23_1.png" media-type="image/png" />
-    <item id="epub-7" href="_images/indonesia_25_2.png" media-type="image/png" />
-    <item id="epub-8" href="_images/indonesia_27_2.png" media-type="image/png" />
-    <item id="epub-9" href="_images/indonesia_29_0.png" media-type="image/png" />
-    <item id="epub-10" href="_images/indonesia_31_0.png" media-type="image/png" />
-    <item id="epub-11" href="_images/russia_20_1.png" media-type="image/png" />
-    <item id="epub-12" href="_images/russia_23_2.png" media-type="image/png" />
-    <item id="epub-13" href="_images/russia_25_2.png" media-type="image/png" />
-    <item id="epub-14" href="_images/russia_27_2.png" media-type="image/png" />
-    <item id="epub-15" href="_static/basic.css" media-type="text/css" />
-    <item id="epub-16" href="_static/epub.css" media-type="text/css" />
-    <item id="epub-17" href="_static/file.png" media-type="image/png" />
-    <item id="epub-18" href="_static/minus.png" media-type="image/png" />
-    <item id="epub-19" href="_static/plus.png" media-type="image/png" />
-    <item id="epub-20" href="_static/pygments.css" media-type="text/css" />
+    <item id="epub-5" href="turkey.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-6" href="world-bank.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-7" href="_images/indonesia_17_1.png" media-type="image/png" />
+    <item id="epub-8" href="_images/indonesia_23_1.png" media-type="image/png" />
+    <item id="epub-9" href="_images/indonesia_25_2.png" media-type="image/png" />
+    <item id="epub-10" href="_images/indonesia_27_2.png" media-type="image/png" />
+    <item id="epub-11" href="_images/indonesia_29_0.png" media-type="image/png" />
+    <item id="epub-12" href="_images/indonesia_31_0.png" media-type="image/png" />
+    <item id="epub-13" href="_images/russia_20_1.png" media-type="image/png" />
+    <item id="epub-14" href="_images/russia_23_2.png" media-type="image/png" />
+    <item id="epub-15" href="_images/russia_25_2.png" media-type="image/png" />
+    <item id="epub-16" href="_images/russia_27_2.png" media-type="image/png" />
+    <item id="epub-17" href="_images/turkey_17_1.png" media-type="image/png" />
+    <item id="epub-18" href="_images/turkey_24_1.png" media-type="image/png" />
+    <item id="epub-19" href="_images/turkey_26_2.png" media-type="image/png" />
+    <item id="epub-20" href="_static/basic.css" media-type="text/css" />
+    <item id="epub-21" href="_static/epub.css" media-type="text/css" />
+    <item id="epub-22" href="_static/file.png" media-type="image/png" />
+    <item id="epub-23" href="_static/minus.png" media-type="image/png" />
+    <item id="epub-24" href="_static/plus.png" media-type="image/png" />
+    <item id="epub-25" href="_static/pygments.css" media-type="text/css" />
   </manifest>
   <spine toc="ncx" page-progression-direction="ltr">
     <itemref idref="epub-2" />
     <itemref idref="epub-0" />
     <itemref idref="epub-3" />
     <itemref idref="epub-4" />
+    <itemref idref="epub-5" />
     <itemref idref="epub-1" />
+    <itemref idref="epub-6" linear="no" />
   </spine>
   <guide>
     <reference type="toc" title="Table of Contents" href="index.xhtml" />

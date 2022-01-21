@@ -7,6 +7,7 @@ INDEX
    about.rst
    indonesia.rst
    russia.rst
+   turkey.rst
 
 
 

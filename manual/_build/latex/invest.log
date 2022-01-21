@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  21 JAN 2022 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  21 JAN 2022 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -701,8 +701,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 82.
 LaTeX Info: Redefining \pageref on input line 82.
 LaTeX Info: Redefining \nameref on input line 82.
-
-(./invest.out) (./invest.out)
 \@outlinefile=\write5
 \openout5 = `invest.out'.
 
@@ -734,7 +732,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
-] (./invest.toc)
+]
 \tf@toc=\write6
 \openout6 = `invest.toc'.
 
@@ -845,34 +843,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--175
  []
 
 [3]
-<indonesia_17_1.png, id=73, 389.455pt x 253.94875pt>
+<indonesia_17_1.png, id=50, 389.455pt x 253.94875pt>
 File: indonesia_17_1.png Graphic file (type png)
 <use indonesia_17_1.png>
 Package pdftex.def Info: indonesia_17_1.png  used on input line 202.
 (pdftex.def)             Requested size: 389.45404pt x 253.94812pt.
  [4 <./indonesia_17_1.png>]
-<indonesia_23_1.png, id=80, 369.38pt x 252.945pt>
+<indonesia_23_1.png, id=58, 369.38pt x 252.945pt>
 File: indonesia_23_1.png Graphic file (type png)
 <use indonesia_23_1.png>
 Package pdftex.def Info: indonesia_23_1.png  used on input line 222.
 (pdftex.def)             Requested size: 369.37909pt x 252.94438pt.
-<indonesia_25_2.png, id=81, 382.42876pt x 252.945pt>
+<indonesia_25_2.png, id=59, 382.42876pt x 252.945pt>
 File: indonesia_25_2.png Graphic file (type png)
 <use indonesia_25_2.png>
 Package pdftex.def Info: indonesia_25_2.png  used on input line 234.
 (pdftex.def)             Requested size: 382.42781pt x 252.94438pt.
  [5 <./indonesia_23_1.png> <./indonesia_25_2.png>]
-<indonesia_27_2.png, id=90, 389.455pt x 252.945pt>
+<indonesia_27_2.png, id=68, 389.455pt x 252.945pt>
 File: indonesia_27_2.png Graphic file (type png)
 <use indonesia_27_2.png>
 Package pdftex.def Info: indonesia_27_2.png  used on input line 246.
 (pdftex.def)             Requested size: 389.45404pt x 252.94438pt.
-<indonesia_29_0.png, id=91, 387.4475pt x 252.945pt>
+<indonesia_29_0.png, id=69, 387.4475pt x 252.945pt>
 File: indonesia_29_0.png Graphic file (type png)
 <use indonesia_29_0.png>
 Package pdftex.def Info: indonesia_29_0.png  used on input line 251.
 (pdftex.def)             Requested size: 387.44655pt x 252.94438pt.
-<indonesia_31_0.png, id=92, 373.395pt x 263.98625pt>
+<indonesia_31_0.png, id=70, 373.395pt x 263.98625pt>
 File: indonesia_31_0.png Graphic file (type png)
 <use indonesia_31_0.png>
 Package pdftex.def Info: indonesia_31_0.png  used on input line 257.
@@ -886,7 +884,7 @@ Underfull \vbox (badness 5431) detected at line 303
 
 [7 <./indonesia_31_0.png>] [8]
 Chapter 3.
-<russia_20_1.png, id=109, 376.40625pt x 261.97874pt>
+<russia_20_1.png, id=87, 376.40625pt x 261.97874pt>
 File: russia_20_1.png Graphic file (type png)
 <use russia_20_1.png>
 Package pdftex.def Info: russia_20_1.png  used on input line 354.
@@ -894,38 +892,161 @@ Package pdftex.def Info: russia_20_1.png  used on input line 354.
 [9
 
  <./russia_20_1.png>]
-<russia_23_2.png, id=116, 379.4175pt x 260.975pt>
+<russia_23_2.png, id=96, 379.4175pt x 260.975pt>
 File: russia_23_2.png Graphic file (type png)
 <use russia_23_2.png>
 Package pdftex.def Info: russia_23_2.png  used on input line 371.
 (pdftex.def)             Requested size: 379.41656pt x 260.97437pt.
-<russia_25_2.png, id=117, 373.395pt x 275.0275pt>
+<russia_25_2.png, id=97, 373.395pt x 275.0275pt>
 File: russia_25_2.png Graphic file (type png)
 <use russia_25_2.png>
 Package pdftex.def Info: russia_25_2.png  used on input line 425.
 (pdftex.def)             Requested size: 373.39409pt x 275.02682pt.
  [10 <./russia_23_2.png>]
-<russia_27_2.png, id=123, 369.38pt x 252.945pt>
+<russia_27_2.png, id=103, 369.38pt x 252.945pt>
 File: russia_27_2.png Graphic file (type png)
 <use russia_27_2.png>
 Package pdftex.def Info: russia_27_2.png  used on input line 437.
 (pdftex.def)             Requested size: 369.37909pt x 252.94438pt.
- (./invest.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 446.
- [11 <./russia_25_2.png> <./russia_27_2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 446.
+ [11 <./russia_25_2.png> <./russia_27_2.png>] [12
+
+]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\TS1/pcr/m/n/10 '\T1/pcr/m/n/10 KEY,[]FREQ,[]CURRENCY,[]CURRENCY_[]DENOM,[]EX
+R_[]TYPE,[]EXR_[]SUFFIX,[]TIME_[]PERIOD,[]OBS_[]VALUE,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 OBS_[]STATUS,[]OBS_[]CONF,[]OBS_[]PRE_[]BREAK,[]OBS_[]COM,[]TI
+ME_[]FORMAT,[]BREAKS,[]COLLECTION,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 COMPILING_[]ORG,[]DISS_[]ORG,[]DOM_[]SER_[]IDS,[]PUBL_[]ECB,[]
+PUBL_[]MU,[]PUBL_[]PUBLIC,[]UNIT_[]INDEX_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 BASE,[]COMPILATION,[]COVERAGE,[]DECIMALS,[]NAT_[]TITLE,[]SOURC
+E_[]AGENCY,[]SOURCE_[]PUB,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 TITLE,[]TITLE_[]COMPL,[]UNIT,[]UNIT_[]MULTrnEXR.[]D.[]TRY.[]EU
+R.[]SP00.[]A,[]D,[]TRY,[]EUR,[]SP00,[]A,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 2021-12-01,[]15.[]1664,[]A,[]F,[],[],[]P1D,[],[]A,[],[],[],[],
+[],[],[],[]"Before[][]1st[][]January[][]2005[][]Turkish[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 lira[][](TRL)[][]divided[][]by[][]1,[]000,[]000[][]is[][]used"
+,[],[]4,[],[]DE2,[],[]Turkish[][]lira/[]Euro,[]"ECB[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 reference[][]exchange[][]rate,[][][]Turkish[][]lira/[]Euro,[][
+][]2:15[][]pm[][](C.[]E.[]T.[])",[]TRY,[]0rnEXR.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 D.[]TRY.[]EUR.[]SP00.[]A,[]D,[]TRY,[]EUR,[]SP00,[]A,[]2021-12-
+02,[]15.[]2937,[]A,[]F,[],[],[]P1D,[],[]A,[],[],[],[],[],[],[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 "Before[][]1st[][]January[][]2005[][]Turkish[][]lira[][](TRL)[
+][]divided[][]by[][]1,[]000,[]000[][]is[][]used",[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 4,[],[]DE2,[],[]Turkish[][]lira/[]Euro,[]"ECB[][]reference[][]
+exchange[][]rate,[][][]Turkish[][]lira/[]Euro,[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 2:15[][]pm[][](C.[]E.[]T.[])",[]TRY,[]0rnEXR.[]D.[]TRY.[]EUR.[
+]SP00.[]A,[]D,[]TRY,[]EUR,[]SP00,[]A,[]2021-12-03,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]\T1/pcr/m/n/10 15.[]6131,[]A,[]F,[],[],[]P1D,[],[]A,[],[],[],[],[],[],[],[]"B
+efore[][]1st[][]January[][]2005[][]Turkish[][]lira[][](TRL)[]
+ []
+
+[13]
+<turkey_17_1.png, id=120, 369.38pt x 299.1175pt>
+File: turkey_17_1.png Graphic file (type png)
+<use turkey_17_1.png>
+Package pdftex.def Info: turkey_17_1.png  used on input line 524.
+(pdftex.def)             Requested size: 369.37909pt x 299.11676pt.
+ [14]
+
+! Package inputenc Error: Unicode character ^^B (U+0002)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ...short\sphinxhyphen{}term gain and long^^B
+                                                  term pain, as the mechanis...
+
+? 
+<turkey_24_1.png, id=125, 399.4925pt x 270.00874pt>
+File: turkey_24_1.png Graphic file (type png)
+<use turkey_24_1.png>
+Package pdftex.def Info: turkey_24_1.png  used on input line 568.
+(pdftex.def)             Requested size: 399.49152pt x 270.00807pt.
+[15 <./turkey_17_1.png>]
+<turkey_26_2.png, id=132, 382.42876pt x 298.11375pt>
+File: turkey_26_2.png Graphic file (type png)
+<use turkey_26_2.png>
+Package pdftex.def Info: turkey_26_2.png  used on input line 580.
+(pdftex.def)             Requested size: 382.42781pt x 298.11302pt.
+ [16 <./turkey_24_1.png> <./turkey_26_2.png>]
+No file invest.ind.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
  (./invest.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 446.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 446.
-Package rerunfilecheck Info: File `invest.out' has not changed.
-(rerunfilecheck)             Checksum: B89D17ACA0F030853B7241E5F01F247D;1035.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 446.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
+
+
+Package rerunfilecheck Warning: File `invest.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `invest.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  54449A4AB9666D9489AEFF2C1EF7FD6B;1511.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 606.
  ) 
 Here is how much of TeX's memory you used:
- 13714 strings out of 483183
- 194128 string characters out of 5966293
- 540000 words of memory out of 5000000
- 28360 multiletter control sequences out of 15000+600000
+ 13729 strings out of 483183
+ 194447 string characters out of 5966293
+ 539497 words of memory out of 5000000
+ 28372 multiletter control sequences out of 15000+600000
  578391 words of font info for 84 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  38i,14n,49p,1380b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -941,10 +1062,10 @@ ive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on invest.pdf (15 pages, 278384 bytes).
+Output written on invest.pdf (21 pages, 318527 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

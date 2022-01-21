@@ -440,6 +440,166 @@ Polyus PJSC PLZL 3.06\%
 \sphinxstyleemphasis{this is the russian rubel against the dollar}
 
 
+\chapter{EM Turkey}
+\label{\detokenize{turkey:em-turkey}}\label{\detokenize{turkey::doc}}
+
+\section{relationship between currency rate \sphinxhyphen{} inflation \sphinxhyphen{} stockexchange}
+\label{\detokenize{turkey:relationship-between-currency-rate-inflation-stockexchange}}
+\sphinxAtStartPar
+Turkey is right now (22/01/22) not the place to invest, but it is really
+interesting because a lot is happening.
+
+\sphinxAtStartPar
+I’m particularly interested in the relation between currency (Forex) and
+stock market.
+
+\sphinxAtStartPar
+From september 5th (8.5) till december 19th (16.70) the Turkish Lira
+dropped almost half in value. An intervention of the Turkish national
+bank (selling of reserves) got the Lira back up till (13).
+
+\sphinxAtStartPar
+A report from EMFI predicts an inversion of the yield curve and an
+inflation of (70\%)!! for 2022. “SELL” is the advice to bondowners ….
+\begin{equation*}
+\begin{split}\beta\Gamma\end{split}
+\end{equation*}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{l+m+mi}{2022}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{01}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{21}
+\end{sphinxVerbatim}
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYGZlt{}Response [200]\PYGZgt{}
+https://sdw\PYGZhy{}wsrest.ecb.europa.eu/service/data/EXR/D.TRY.EUR.SP00.A?startPeriod=2021\PYGZhy{}12\PYGZhy{}01\PYGZam{}endPeriod=2022\PYGZhy{}01\PYGZhy{}21
+\end{sphinxVerbatim}
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYGZlt{}?xml version=\PYGZdq{}1.0\PYGZdq{} encoding=\PYGZdq{}UTF\PYGZhy{}8\PYGZdq{}?\PYGZgt{}\PYGZlt{}message:GenericData xmlns:message=\PYGZdq{}http://www.sdmx.org/resources/sdmxml/schemas/v2\PYGZus{}1/message\PYGZdq{} xmlns:common=\PYGZdq{}http://www.sdmx.org/resources/sdmxml/schemas/v2\PYGZus{}1/common\PYGZdq{} xmlns:xsi=\PYGZdq{}http://www.w3.org/2001/XMLSchema\PYGZhy{}instance\PYGZdq{} xmlns:generic=\PYGZdq{}http://www.sdmx.org/resources/sdmxml/schemas/v2\PYGZus{}1/data/generic\PYGZdq{} xsi:schemaLocation=\PYGZdq{}http://www.sdmx.org/resources/sdmxml/schemas/v2\PYGZus{}1/message https://sdw\PYGZhy{}wsrest.ecb.europa.eu:443/vocabulary/sdmx/2\PYGZus{}1/SDMXMessage.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2\PYGZus{}1/common https://sdw\PYGZhy{}wsrest.ecb.europa.eu:443/vocabulary/sdmx/2\PYGZus{}1/SDMXCommon.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2\PYGZus{}1/data/generic https://sdw\PYGZhy{}wsrest.ecb.europa.eu:443/vocabulary/sdmx/2\PYGZus{}1/SDMXDataGeneric.xsd\PYGZdq{}\PYGZgt{}
+\PYGZlt{}message:Header\PYGZgt{}
+\PYGZlt{}message:ID\PYGZgt{}5970e66c\PYGZhy{}46a8\PYGZhy{}454e\PYGZhy{}a74c\PYGZhy{}1762408d68fc\PYGZlt{}/message:ID\PYGZgt{}
+\PYGZlt{}message:Test\PYGZgt{}false\PYGZlt{}/message:Test\PYGZgt{}
+\PYGZlt{}message:Prepared\PYGZgt{}2022\PYGZhy{}01\PYGZhy{}22T19:38:01.613+01:00\PYGZlt{}/message:Prepared\PYGZgt{}
+\PYGZlt{}message:Sender id=\PYGZdq{}ECB\PYGZdq{}/\PYGZgt{}
+\PYGZlt{}message:Structure structureID=\PYGZdq{}
+\end{sphinxVerbatim}
+
+\sphinxAtStartPar
+Hmmm, the response is in XML. Not impossible, but also not the easiest
+format to work within Pandas. Fortunately, the ECB’s API lets us get the
+data in CSV format by specifying it in the header of the request.
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZlt{}}\PYG{n}{Response} \PYG{p}{[}\PYG{l+m+mi}{200}\PYG{p}{]}\PYG{o}{\PYGZgt{}}
+\end{sphinxVerbatim}
+\begin{sphinxalltt}
+\textquotesingle{}KEY,FREQ,CURRENCY,CURRENCY\_DENOM,EXR\_TYPE,EXR\_SUFFIX,TIME\_PERIOD,OBS\_VALUE,OBS\_STATUS,OBS\_CONF,OBS\_PRE\_BREAK,OBS\_COM,TIME\_FORMAT,BREAKS,COLLECTION,COMPILING\_ORG,DISS\_ORG,DOM\_SER\_IDS,PUBL\_ECB,PUBL\_MU,PUBL\_PUBLIC,UNIT\_INDEX\_BASE,COMPILATION,COVERAGE,DECIMALS,NAT\_TITLE,SOURCE\_AGENCY,SOURCE\_PUB,TITLE,TITLE\_COMPL,UNIT,UNIT\_MULTrnEXR.D.TRY.EUR.SP00.A,D,TRY,EUR,SP00,A,2021\sphinxhyphen{}12\sphinxhyphen{}01,15.1664,A,F,,,P1D,,A,,,,,,,,"Before 1st January 2005 Turkish lira (TRL) divided by 1,000,000 is used",,4,,DE2,,Turkish lira/Euro,"ECB reference exchange rate, Turkish lira/Euro, 2:15 pm (C.E.T.)",TRY,0rnEXR.D.TRY.EUR.SP00.A,D,TRY,EUR,SP00,A,2021\sphinxhyphen{}12\sphinxhyphen{}02,15.2937,A,F,,,P1D,,A,,,,,,,,"Before 1st January 2005 Turkish lira (TRL) divided by 1,000,000 is used",,4,,DE2,,Turkish lira/Euro,"ECB reference exchange rate, Turkish lira/Euro, 2:15 pm (C.E.T.)",TRY,0rnEXR.D.TRY.EUR.SP00.A,D,TRY,EUR,SP00,A,2021\sphinxhyphen{}12\sphinxhyphen{}03,15.6131,A,F,,,P1D,,A,,,,,,,,"Before 1st January 2005 Turkish lira (TRL) divided by 1,000,000 is used",,4,,DE2,,Turkish li\textquotesingle{}
+\end{sphinxalltt}
+
+\sphinxAtStartPar
+The columns we need are ‘TIME\_PERIOD’ for the dates and ‘OBS\_VALUE’ for
+the prices. Let’s also do a sanity check on the prices in ‘OBS\_VALUE’.
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{count}    \PYG{l+m+mf}{38.000000}
+\PYG{n}{mean}     \PYG{l+m+mf}{15.413537}
+\PYG{n}{std}       \PYG{l+m+mf}{1.384352}
+\PYG{n+nb}{min}      \PYG{l+m+mf}{12.652500}
+\PYG{l+m+mi}{25}\PYG{o}{\PYGZpc{}}      \PYG{l+m+mf}{15.145400}
+\PYG{l+m+mi}{50}\PYG{o}{\PYGZpc{}}      \PYG{l+m+mf}{15.432700}
+\PYG{l+m+mi}{75}\PYG{o}{\PYGZpc{}}      \PYG{l+m+mf}{15.672475}
+\PYG{n+nb}{max}      \PYG{l+m+mf}{20.043400}
+\PYG{n}{Name}\PYG{p}{:} \PYG{n}{OBS\PYGZus{}VALUE}\PYG{p}{,} \PYG{n}{dtype}\PYG{p}{:} \PYG{n}{float64}
+\end{sphinxVerbatim}
+
+
+
+\sphinxAtStartPar
+the spike is the FX \sphinxhyphen{} market is 2021\sphinxhyphen{}12\sphinxhyphen{}20 where you get 20.0434 Lira
+for 1 Euro.
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZlt{}}\PYG{n}{AxesSubplot}\PYG{p}{:}\PYG{n}{xlabel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{TIME\PYGZus{}PERIOD}\PYG{l+s+s1}{\PYGZsq{}}\PYG{o}{\PYGZgt{}}
+\end{sphinxVerbatim}
+
+\noindent\sphinxincludegraphics{{turkey_17_1}.png}
+
+\sphinxAtStartPar
+Turkish lira against EURO \sphinxhyphen{} data taken from ECB, you can see a spike at
+december 20th. Subsequently there is an intervention from the Turkish
+national bank, supporting the Turkish lira : \sphinxhyphen{} statement by president
+Erdogan \sphinxhyphen{} sell of foreign reserves
+
+\sphinxAtStartPar
+The new deposit scheme, called byBloomberg a rate increase in disguise,
+could be short\sphinxhyphen{}term gain and longterm pain, as the mechanism basically
+transfers FX risks from the private sector to the government, with the
+latter guaranteeing depositor’s returns by covering any losses caused by
+a depreciation in the lira, as long as those losses exceed the bank’s
+interest rates. This in eAect creates a liability for the government,
+which would come back to bite in case the lira weakens again. To make
+matters worse, authorities might choose to monetize the obligation, thus
+putting more pressure on inCation and the lira, creating a vicious cycle
+that could get out of
+
+\sphinxAtStartPar
+Summarizing, Turkey’s outlook includes more inflation, more long\sphinxhyphen{}term
+currency depreciation and no interest rate hikes to correct these moves;
+on the contrary, it looks like the president will continue to blame
+everybody and everything else but his beliefs. Brace yourself, Turkey.
+
+\sphinxAtStartPar
+Now we import data from the turkish stock exchange, we use the iShares
+MSCI Turkey.
+\begin{sphinxalltt}
+{[}\sphinxstylestrong{*******************100\%*********************}{]}  1 of 1 completed
+\end{sphinxalltt}
+
+
+
+\sphinxAtStartPar
+you can see : 2021\sphinxhyphen{}12\sphinxhyphen{}20 a 15.290000 low, which is same date as currency
+hike. \sphinxstylestrong{hypothesis:} somebody is closely watching exchange rate on spot
+market and hits “sell\sphinxhyphen{}button” on stock\sphinxhyphen{}exchange?
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZlt{}}\PYG{n}{AxesSubplot}\PYG{p}{:}\PYG{n}{xlabel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Date}\PYG{l+s+s1}{\PYGZsq{}}\PYG{o}{\PYGZgt{}}
+\end{sphinxVerbatim}
+
+\noindent\sphinxincludegraphics{{turkey_24_1}.png}
+
+\sphinxAtStartPar
+\sphinxstyleemphasis{graph is turkish MSCI index in dollar}
+\begin{sphinxalltt}
+{[}\sphinxstylestrong{*******************100\%*********************}{]}  1 of 1 completed
+\end{sphinxalltt}
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZlt{}}\PYG{n}{AxesSubplot}\PYG{p}{:}\PYG{n}{xlabel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Date}\PYG{l+s+s1}{\PYGZsq{}}\PYG{o}{\PYGZgt{}}
+\end{sphinxVerbatim}
+
+\noindent\sphinxincludegraphics{{turkey_26_2}.png}
+
+\sphinxAtStartPar
+in order to get inflation data (which is probably even higher) a
+technique “webscraping” is used
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZlt{}}\PYG{n}{Response} \PYG{p}{[}\PYG{l+m+mi}{200}\PYG{p}{]}\PYG{o}{\PYGZgt{}}
+\PYG{n}{test}
+\end{sphinxVerbatim}
+
+\sphinxAtStartPar
+Credit Default Swaps \textendash{} different types for CDS on ABS \sphinxhyphen{} continued \sphinxhyphen{}
+Fixed Cap: Maximum amount that the protection seller has to pay buyer is
+the Fixed Rate \sphinxhyphen{} Variable Cap: Protection seller has to make up any
+interest shortfall on the bond up to LIBOR plus the Fixed Rate \sphinxhyphen{} No Cap:
+Protection seller has to make up any interest shortfall on the bond
+
+\sphinxAtStartPar
+\sphinxstyleemphasis{is there a way to get a headstart in information about currency : libor
+rate, cds … ?}
+
+
 
 \renewcommand{\indexname}{Index}
 \printindex
