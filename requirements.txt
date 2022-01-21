@@ -3,3 +3,4 @@ requests==2.26.0
 yfinance==0.1.69
 matplotlib==3.3.4
 plotly==5.5.0
+world-bank-data==0.1.3
