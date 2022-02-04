@@ -38,7 +38,7 @@ As an individual investor you need to be aware of your position.
 
 The purpose of this project is to : 
 - monitor market risk (country report) 
-- analyse pricing of certain assets
+- analyse pricing of certain assets (buy/sell advise)
 - benchmark own portfolio
 
 ### documentation
@@ -62,14 +62,16 @@ You can find the the notebooks under the notebooks directory.
 
 ## TODO
 - bond-futures, CDS, ...  (smart money, markettiming)
-- value investor data (13F) (what are intelligent investors up to?)
-- shopping list (monitor pricing)
-
+- shopping list (using own database)
+- sec 4 form 
+- own portfolio follow up
 
 ## DONE
-- python script to scrape Belgian insider website 
-- country report on a few EM
-
+- python script to scrape Belgian insider website (Euronext directory)
+- country report on a few EM, using Jupyter notebooks
+- value investor data scraping (13F) (edgar directory)
+- plotting graph (candlestick) with investor info on hover-over
+- plotting portfolio well known investors
 
 
 
