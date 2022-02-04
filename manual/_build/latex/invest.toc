@@ -5,4 +5,26 @@
 \contentsline {chapter}{\numberline {3}EM Russia}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}relationship between currency rate \sphinxhyphen {} inflation \sphinxhyphen {} stockexchange}{9}{section.3.1}%
 \contentsline {chapter}{\numberline {4}EM Turkey}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}relationship between currency rate \sphinxhyphen {} inflation \sphinxhyphen {} stockexchange}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.1}relationship between currency rate \sphinxhyphen {} bondmarket \sphinxhyphen {} stockexchange}{13}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Buffett}{17}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Buffettfractional}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Carl}{21}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Carlfractional}{23}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Dalio}{25}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Daliofractional}{27}{chapter.10}%
+\contentsline {chapter}{\numberline {11}David\_Tepper}{29}{chapter.11}%
+\contentsline {chapter}{\numberline {12}David\_Tepperfractional}{31}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Greenlight\_Einhorn}{33}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Greenlight\_Einhornfractional}{35}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Guy}{37}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Guyfractional}{39}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Himalaya\_Li\_Lu}{41}{chapter.17}%
+\contentsline {chapter}{\numberline {18}Himalaya\_Li\_Lufractional}{43}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Mohnish}{45}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Mohnishfractional}{47}{chapter.20}%
+\contentsline {chapter}{\numberline {21}Pershing\_Ackman}{49}{chapter.21}%
+\contentsline {chapter}{\numberline {22}Pershing\_Ackmanfractional}{51}{chapter.22}%
+\contentsline {chapter}{\numberline {23}Seth}{53}{chapter.23}%
+\contentsline {chapter}{\numberline {24}Sethfractional}{55}{chapter.24}%
+\contentsline {chapter}{\numberline {25}TCI\_Chris}{57}{chapter.25}%
+\contentsline {chapter}{\numberline {26}TCI\_Chrisfractional}{59}{chapter.26}%

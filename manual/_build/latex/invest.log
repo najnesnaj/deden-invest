@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  21 JAN 2022 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  29 JAN 2022 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,91 +912,13 @@ Package pdftex.def Info: russia_27_2.png  used on input line 437.
 
 ]
 Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\TS1/pcr/m/n/10 '\T1/pcr/m/n/10 KEY,[]FREQ,[]CURRENCY,[]CURRENCY_[]DENOM,[]EX
-R_[]TYPE,[]EXR_[]SUFFIX,[]TIME_[]PERIOD,[]OBS_[]VALUE,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 OBS_[]STATUS,[]OBS_[]CONF,[]OBS_[]PRE_[]BREAK,[]OBS_[]COM,[]TI
-ME_[]FORMAT,[]BREAKS,[]COLLECTION,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 COMPILING_[]ORG,[]DISS_[]ORG,[]DOM_[]SER_[]IDS,[]PUBL_[]ECB,[]
-PUBL_[]MU,[]PUBL_[]PUBLIC,[]UNIT_[]INDEX_
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 BASE,[]COMPILATION,[]COVERAGE,[]DECIMALS,[]NAT_[]TITLE,[]SOURC
-E_[]AGENCY,[]SOURCE_[]PUB,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 TITLE,[]TITLE_[]COMPL,[]UNIT,[]UNIT_[]MULTrnEXR.[]D.[]TRY.[]EU
-R.[]SP00.[]A,[]D,[]TRY,[]EUR,[]SP00,[]A,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 2021-12-01,[]15.[]1664,[]A,[]F,[],[],[]P1D,[],[]A,[],[],[],[],
-[],[],[],[]"Before[][]1st[][]January[][]2005[][]Turkish[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 lira[][](TRL)[][]divided[][]by[][]1,[]000,[]000[][]is[][]used"
-,[],[]4,[],[]DE2,[],[]Turkish[][]lira/[]Euro,[]"ECB[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 reference[][]exchange[][]rate,[][][]Turkish[][]lira/[]Euro,[][
-][]2:15[][]pm[][](C.[]E.[]T.[])",[]TRY,[]0rnEXR.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 D.[]TRY.[]EUR.[]SP00.[]A,[]D,[]TRY,[]EUR,[]SP00,[]A,[]2021-12-
-02,[]15.[]2937,[]A,[]F,[],[],[]P1D,[],[]A,[],[],[],[],[],[],[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 "Before[][]1st[][]January[][]2005[][]Turkish[][]lira[][](TRL)[
-][]divided[][]by[][]1,[]000,[]000[][]is[][]used",[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 4,[],[]DE2,[],[]Turkish[][]lira/[]Euro,[]"ECB[][]reference[][]
-exchange[][]rate,[][][]Turkish[][]lira/[]Euro,[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 2:15[][]pm[][](C.[]E.[]T.[])",[]TRY,[]0rnEXR.[]D.[]TRY.[]EUR.[
-]SP00.[]A,[]D,[]TRY,[]EUR,[]SP00,[]A,[]2021-12-03,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\T1/pcr/m/n/10 15.[]6131,[]A,[]F,[],[],[]P1D,[],[]A,[],[],[],[],[],[],[],[]"B
-efore[][]1st[][]January[][]2005[][]Turkish[][]lira[][](TRL)[]
- []
-
 [13]
-<turkey_17_1.png, id=120, 369.38pt x 299.1175pt>
+<turkey_17_1.png, id=120, 387.4475pt x 261.97874pt>
 File: turkey_17_1.png Graphic file (type png)
 <use turkey_17_1.png>
-Package pdftex.def Info: turkey_17_1.png  used on input line 524.
-(pdftex.def)             Requested size: 369.37909pt x 299.11676pt.
- [14]
+Package pdftex.def Info: turkey_17_1.png  used on input line 520.
+(pdftex.def)             Requested size: 387.44655pt x 261.9781pt.
+
 
 ! Package inputenc Error: Unicode character ^^B (U+0002)
 (inputenc)                not set up for use with LaTeX.
@@ -1005,29 +927,236 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534 ...short\sphinxhyphen{}term gain and long^^B
+l.533 ...short\sphinxhyphen{}term gain and long^^B
                                                   term pain, as the mechanis...
 
 ? 
-<turkey_24_1.png, id=125, 399.4925pt x 270.00874pt>
-File: turkey_24_1.png Graphic file (type png)
-<use turkey_24_1.png>
-Package pdftex.def Info: turkey_24_1.png  used on input line 568.
-(pdftex.def)             Requested size: 399.49152pt x 270.00807pt.
-[15 <./turkey_17_1.png>]
-<turkey_26_2.png, id=132, 382.42876pt x 298.11375pt>
-File: turkey_26_2.png Graphic file (type png)
-<use turkey_26_2.png>
-Package pdftex.def Info: turkey_26_2.png  used on input line 580.
+[14 <./turkey_17_1.png>]
+<turkey_27_2.png, id=126, 382.42876pt x 298.11375pt>
+File: turkey_27_2.png Graphic file (type png)
+<use turkey_27_2.png>
+Package pdftex.def Info: turkey_27_2.png  used on input line 586.
 (pdftex.def)             Requested size: 382.42781pt x 298.11302pt.
- [16 <./turkey_24_1.png> <./turkey_26_2.png>]
+<turkey_28_2.png, id=127, 394.47375pt x 263.98625pt>
+File: turkey_28_2.png Graphic file (type png)
+<use turkey_28_2.png>
+Package pdftex.def Info: turkey_28_2.png  used on input line 595.
+(pdftex.def)             Requested size: 394.47278pt x 263.9856pt.
+ [15 <./turkey_27_2.png>] [16 <./turkey_28_2.png>]
+Chapter 5.
+<Buffett2021-09-30.png, id=139, 1084.05pt x 1084.05pt>
+File: Buffett2021-09-30.png Graphic file (type png)
+<use Buffett2021-09-30.png>
+Package pdftex.def Info: Buffett2021-09-30.png  used on input line 628.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[17
+
+ <./Buffett2021-09-30.png>] [18
+
+]
+Chapter 6.
+<Buffettfractional2021-09-30.png, id=150, 1084.05pt x 1084.05pt>
+File: Buffettfractional2021-09-30.png Graphic file (type png)
+<use Buffettfractional2021-09-30.png>
+Package pdftex.def Info: Buffettfractional2021-09-30.png  used on input line 63
+3.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[19 <./Buffettfractional2021-09-30.png>] [20
+
+]
+Chapter 7.
+<Carl2021-09-30.png, id=161, 1084.05pt x 1084.05pt>
+File: Carl2021-09-30.png Graphic file (type png)
+<use Carl2021-09-30.png>
+Package pdftex.def Info: Carl2021-09-30.png  used on input line 638.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[21 <./Carl2021-09-30.png>] [22
+
+]
+Chapter 8.
+<Carlfractional2021-09-30.png, id=173, 1084.05pt x 1084.05pt>
+File: Carlfractional2021-09-30.png Graphic file (type png)
+<use Carlfractional2021-09-30.png>
+Package pdftex.def Info: Carlfractional2021-09-30.png  used on input line 643.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[23 <./Carlfractional2021-09-30.png>] [24
+
+]
+Chapter 9.
+<Dalio2021-09-30.png, id=184, 1084.05pt x 1084.05pt>
+File: Dalio2021-09-30.png Graphic file (type png)
+<use Dalio2021-09-30.png>
+Package pdftex.def Info: Dalio2021-09-30.png  used on input line 648.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[25 <./Dalio2021-09-30.png>] [26
+
+]
+Chapter 10.
+<Daliofractional2021-09-30.png, id=196, 1084.05pt x 1084.05pt>
+File: Daliofractional2021-09-30.png Graphic file (type png)
+<use Daliofractional2021-09-30.png>
+Package pdftex.def Info: Daliofractional2021-09-30.png  used on input line 653.
+
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[27 <./Daliofractional2021-09-30.png>] [28
+
+]
+Chapter 11.
+<David_Tepper2021-09-30.png, id=208, 1084.05pt x 1084.05pt>
+File: David_Tepper2021-09-30.png Graphic file (type png)
+<use David_Tepper2021-09-30.png>
+Package pdftex.def Info: David_Tepper2021-09-30.png  used on input line 658.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[29 <./David_Tepper2021-09-30.png>] [30
+
+]
+Chapter 12.
+<David_Tepperfractional2021-09-30.png, id=219, 1084.05pt x 1084.05pt>
+File: David_Tepperfractional2021-09-30.png Graphic file (type png)
+<use David_Tepperfractional2021-09-30.png>
+Package pdftex.def Info: David_Tepperfractional2021-09-30.png  used on input li
+ne 663.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[31 <./David_Tepperfractional2021-09-30.png>] [32
+
+]
+Chapter 13.
+<Greenlight_Einhorn2021-09-30.png, id=230, 1084.05pt x 1084.05pt>
+File: Greenlight_Einhorn2021-09-30.png Graphic file (type png)
+<use Greenlight_Einhorn2021-09-30.png>
+Package pdftex.def Info: Greenlight_Einhorn2021-09-30.png  used on input line 6
+68.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[33 <./Greenlight_Einhorn2021-09-30.png>] [34
+
+]
+Chapter 14.
+<Greenlight_Einhornfractional2021-09-30.png, id=242, 1084.05pt x 1084.05pt>
+File: Greenlight_Einhornfractional2021-09-30.png Graphic file (type png)
+<use Greenlight_Einhornfractional2021-09-30.png>
+Package pdftex.def Info: Greenlight_Einhornfractional2021-09-30.png  used on in
+put line 673.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[35 <./Greenlight_Einhornfractional2021-09-30.png>] [36
+
+]
+Chapter 15.
+<Guy2021-09-30.png, id=253, 1084.05pt x 1084.05pt>
+File: Guy2021-09-30.png Graphic file (type png)
+<use Guy2021-09-30.png>
+Package pdftex.def Info: Guy2021-09-30.png  used on input line 678.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[37 <./Guy2021-09-30.png>] [38
+
+]
+Chapter 16.
+<Guyfractional2021-09-30.png, id=264, 1084.05pt x 1084.05pt>
+File: Guyfractional2021-09-30.png Graphic file (type png)
+<use Guyfractional2021-09-30.png>
+Package pdftex.def Info: Guyfractional2021-09-30.png  used on input line 683.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[39 <./Guyfractional2021-09-30.png>] [40
+
+]
+Chapter 17.
+<Himalaya_Li_Lu2021-09-30.png, id=276, 1084.05pt x 1084.05pt>
+File: Himalaya_Li_Lu2021-09-30.png Graphic file (type png)
+<use Himalaya_Li_Lu2021-09-30.png>
+Package pdftex.def Info: Himalaya_Li_Lu2021-09-30.png  used on input line 688.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[41 <./Himalaya_Li_Lu2021-09-30.png>] [42
+
+]
+Chapter 18.
+<Himalaya_Li_Lufractional2021-09-30.png, id=287, 1084.05pt x 1084.05pt>
+File: Himalaya_Li_Lufractional2021-09-30.png Graphic file (type png)
+<use Himalaya_Li_Lufractional2021-09-30.png>
+Package pdftex.def Info: Himalaya_Li_Lufractional2021-09-30.png  used on input 
+line 693.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[43 <./Himalaya_Li_Lufractional2021-09-30.png>] [44
+
+]
+Chapter 19.
+<Mohnish2021-09-30.png, id=298, 1084.05pt x 1084.05pt>
+File: Mohnish2021-09-30.png Graphic file (type png)
+<use Mohnish2021-09-30.png>
+Package pdftex.def Info: Mohnish2021-09-30.png  used on input line 698.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[45 <./Mohnish2021-09-30.png>] [46
+
+]
+Chapter 20.
+<Mohnishfractional2021-09-30.png, id=310, 1084.05pt x 1084.05pt>
+File: Mohnishfractional2021-09-30.png Graphic file (type png)
+<use Mohnishfractional2021-09-30.png>
+Package pdftex.def Info: Mohnishfractional2021-09-30.png  used on input line 70
+3.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[47 <./Mohnishfractional2021-09-30.png>] [48
+
+]
+Chapter 21.
+<Pershing_Ackman2021-09-30.png, id=321, 1084.05pt x 1084.05pt>
+File: Pershing_Ackman2021-09-30.png Graphic file (type png)
+<use Pershing_Ackman2021-09-30.png>
+Package pdftex.def Info: Pershing_Ackman2021-09-30.png  used on input line 708.
+
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[49 <./Pershing_Ackman2021-09-30.png>] [50
+
+]
+Chapter 22.
+<Pershing_Ackmanfractional2021-09-30.png, id=332, 1084.05pt x 1084.05pt>
+File: Pershing_Ackmanfractional2021-09-30.png Graphic file (type png)
+<use Pershing_Ackmanfractional2021-09-30.png>
+Package pdftex.def Info: Pershing_Ackmanfractional2021-09-30.png  used on input
+ line 713.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[51 <./Pershing_Ackmanfractional2021-09-30.png>] [52
+
+]
+Chapter 23.
+<Seth2021-09-30.png, id=344, 1084.05pt x 1084.05pt>
+File: Seth2021-09-30.png Graphic file (type png)
+<use Seth2021-09-30.png>
+Package pdftex.def Info: Seth2021-09-30.png  used on input line 718.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[53 <./Seth2021-09-30.png>] [54
+
+]
+Chapter 24.
+<Sethfractional2021-09-30.png, id=356, 1084.05pt x 1084.05pt>
+File: Sethfractional2021-09-30.png Graphic file (type png)
+<use Sethfractional2021-09-30.png>
+Package pdftex.def Info: Sethfractional2021-09-30.png  used on input line 723.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[55 <./Sethfractional2021-09-30.png>] [56
+
+]
+Chapter 25.
+<TCI_Chris2021-09-30.png, id=367, 1084.05pt x 1084.05pt>
+File: TCI_Chris2021-09-30.png Graphic file (type png)
+<use TCI_Chris2021-09-30.png>
+Package pdftex.def Info: TCI_Chris2021-09-30.png  used on input line 728.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
+[57 <./TCI_Chris2021-09-30.png>] [58
+
+]
+Chapter 26.
+<TCI_Chrisfractional2021-09-30.png, id=379, 1084.05pt x 1084.05pt>
+File: TCI_Chrisfractional2021-09-30.png Graphic file (type png)
+<use TCI_Chrisfractional2021-09-30.png>
+Package pdftex.def Info: TCI_Chrisfractional2021-09-30.png  used on input line 
+733.
+(pdftex.def)             Requested size: 469.75496pt x 469.75496pt.
 No file invest.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
-[17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 739.
+[59 <./TCI_Chrisfractional2021-09-30.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 739.
  (./invest.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 739.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 739.
 
 
 Package rerunfilecheck Warning: File `invest.out' has changed.
@@ -1036,17 +1165,17 @@ Package rerunfilecheck Warning: File `invest.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `invest.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  54449A4AB9666D9489AEFF2C1EF7FD6B;1511.
+(rerunfilecheck)             After:  26138A8F23900D2E9E619CC88BF08F07;4065.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 606.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 739.
  ) 
 Here is how much of TeX's memory you used:
- 13729 strings out of 483183
- 194447 string characters out of 5966293
+ 13969 strings out of 483183
+ 200637 string characters out of 5966293
  539497 words of memory out of 5000000
- 28372 multiletter control sequences out of 15000+600000
+ 28526 multiletter control sequences out of 15000+600000
  578391 words of font info for 84 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  38i,14n,49p,1380b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1062,10 +1191,10 @@ ive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on invest.pdf (21 pages, 318527 bytes).
+Output written on invest.pdf (63 pages, 4159138 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

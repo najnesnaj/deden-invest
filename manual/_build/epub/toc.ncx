@@ -71,10 +71,142 @@
       </navPoint>
       <navPoint id="navPoint11" playOrder="8">
         <navLabel>
-          <text>relationship between currency rate - inflation - stockexchange</text>
+          <text>relationship between currency rate - bondmarket - stockexchange</text>
         </navLabel>
-        <content src="turkey.xhtml#relationship-between-currency-rate-inflation-stockexchange" />  
+        <content src="turkey.xhtml#relationship-between-currency-rate-bondmarket-stockexchange" />  
       </navPoint>
+    </navPoint>
+    <navPoint id="navPoint12" playOrder="9">
+      <navLabel>
+        <text>Buffett</text>
+      </navLabel>
+      <content src="Buffett2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint13" playOrder="10">
+      <navLabel>
+        <text>Buffettfractional</text>
+      </navLabel>
+      <content src="Buffettfractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint14" playOrder="11">
+      <navLabel>
+        <text>Carl</text>
+      </navLabel>
+      <content src="Carl2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint15" playOrder="12">
+      <navLabel>
+        <text>Carlfractional</text>
+      </navLabel>
+      <content src="Carlfractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint16" playOrder="13">
+      <navLabel>
+        <text>Dalio</text>
+      </navLabel>
+      <content src="Dalio2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint17" playOrder="14">
+      <navLabel>
+        <text>Daliofractional</text>
+      </navLabel>
+      <content src="Daliofractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint18" playOrder="15">
+      <navLabel>
+        <text>David_Tepper</text>
+      </navLabel>
+      <content src="David_Tepper2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint19" playOrder="16">
+      <navLabel>
+        <text>David_Tepperfractional</text>
+      </navLabel>
+      <content src="David_Tepperfractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint20" playOrder="17">
+      <navLabel>
+        <text>Greenlight_Einhorn</text>
+      </navLabel>
+      <content src="Greenlight_Einhorn2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint21" playOrder="18">
+      <navLabel>
+        <text>Greenlight_Einhornfractional</text>
+      </navLabel>
+      <content src="Greenlight_Einhornfractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint22" playOrder="19">
+      <navLabel>
+        <text>Guy</text>
+      </navLabel>
+      <content src="Guy2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint23" playOrder="20">
+      <navLabel>
+        <text>Guyfractional</text>
+      </navLabel>
+      <content src="Guyfractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint24" playOrder="21">
+      <navLabel>
+        <text>Himalaya_Li_Lu</text>
+      </navLabel>
+      <content src="Himalaya_Li_Lu2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint25" playOrder="22">
+      <navLabel>
+        <text>Himalaya_Li_Lufractional</text>
+      </navLabel>
+      <content src="Himalaya_Li_Lufractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint26" playOrder="23">
+      <navLabel>
+        <text>Mohnish</text>
+      </navLabel>
+      <content src="Mohnish2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint27" playOrder="24">
+      <navLabel>
+        <text>Mohnishfractional</text>
+      </navLabel>
+      <content src="Mohnishfractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint28" playOrder="25">
+      <navLabel>
+        <text>Pershing_Ackman</text>
+      </navLabel>
+      <content src="Pershing_Ackman2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint29" playOrder="26">
+      <navLabel>
+        <text>Pershing_Ackmanfractional</text>
+      </navLabel>
+      <content src="Pershing_Ackmanfractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint30" playOrder="27">
+      <navLabel>
+        <text>Seth</text>
+      </navLabel>
+      <content src="Seth2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint31" playOrder="28">
+      <navLabel>
+        <text>Sethfractional</text>
+      </navLabel>
+      <content src="Sethfractional2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint32" playOrder="29">
+      <navLabel>
+        <text>TCI_Chris</text>
+      </navLabel>
+      <content src="TCI_Chris2021-09-30.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint33" playOrder="30">
+      <navLabel>
+        <text>TCI_Chrisfractional</text>
+      </navLabel>
+      <content src="TCI_Chrisfractional2021-09-30.xhtml" />  
     </navPoint>
   </navMap>
 </ncx>

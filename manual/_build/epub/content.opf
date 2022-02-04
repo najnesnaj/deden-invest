@@ -12,8 +12,8 @@
     <dc:publisher>najnesnaj@yahoo.com</dc:publisher>
     <dc:rights>2022, jj</dc:rights>
     <dc:identifier id="unknown">unknown</dc:identifier>
-    <dc:date>2022-01-21T21:10:32Z</dc:date>
-    <meta property="dcterms:modified">2022-01-21T21:10:32Z</meta>
+    <dc:date>2022-01-29T22:22:25Z</dc:date>
+    <meta property="dcterms:modified">2022-01-29T22:22:25Z</meta>
     <meta property="ibooks:version">beta</meta>
     <meta property="ibooks:specified-fonts">true</meta>
     <meta property="ibooks:binding">true</meta>
@@ -22,41 +22,124 @@
   <manifest>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-    <item id="epub-0" href="about.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-1" href="genindex.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-2" href="index.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-3" href="indonesia.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-4" href="russia.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-5" href="turkey.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-6" href="world-bank.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-7" href="_images/indonesia_17_1.png" media-type="image/png" />
-    <item id="epub-8" href="_images/indonesia_23_1.png" media-type="image/png" />
-    <item id="epub-9" href="_images/indonesia_25_2.png" media-type="image/png" />
-    <item id="epub-10" href="_images/indonesia_27_2.png" media-type="image/png" />
-    <item id="epub-11" href="_images/indonesia_29_0.png" media-type="image/png" />
-    <item id="epub-12" href="_images/indonesia_31_0.png" media-type="image/png" />
-    <item id="epub-13" href="_images/russia_20_1.png" media-type="image/png" />
-    <item id="epub-14" href="_images/russia_23_2.png" media-type="image/png" />
-    <item id="epub-15" href="_images/russia_25_2.png" media-type="image/png" />
-    <item id="epub-16" href="_images/russia_27_2.png" media-type="image/png" />
-    <item id="epub-17" href="_images/turkey_17_1.png" media-type="image/png" />
-    <item id="epub-18" href="_images/turkey_24_1.png" media-type="image/png" />
-    <item id="epub-19" href="_images/turkey_26_2.png" media-type="image/png" />
-    <item id="epub-20" href="_static/basic.css" media-type="text/css" />
-    <item id="epub-21" href="_static/epub.css" media-type="text/css" />
-    <item id="epub-22" href="_static/file.png" media-type="image/png" />
-    <item id="epub-23" href="_static/minus.png" media-type="image/png" />
-    <item id="epub-24" href="_static/plus.png" media-type="image/png" />
-    <item id="epub-25" href="_static/pygments.css" media-type="text/css" />
+    <item id="epub-0" href="Buffett2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-1" href="Buffettfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-2" href="Carl2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-3" href="Carlfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-4" href="Dalio2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-5" href="Daliofractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-6" href="David_Tepper2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-7" href="David_Tepperfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-8" href="Greenlight_Einhorn2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-9" href="Greenlight_Einhornfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-10" href="Guy2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-11" href="Guyfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-12" href="Himalaya_Li_Lu2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-13" href="Himalaya_Li_Lufractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-14" href="Mohnish2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-15" href="Mohnishfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-16" href="Pershing_Ackman2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-17" href="Pershing_Ackmanfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-18" href="Seth2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-19" href="Sethfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-20" href="TCI_Chris2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-21" href="TCI_Chrisfractional2021-09-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-22" href="about.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-23" href="extract13F.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-24" href="genindex.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-25" href="index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-26" href="indonesia.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-27" href="russia.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-28" href="russia2.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-29" href="turkey.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-30" href="turkey2.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-31" href="world-bank.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-32" href="_images/Buffett2021-09-30.png" media-type="image/png" />
+    <item id="epub-33" href="_images/Buffettfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-34" href="_images/Carl2021-09-30.png" media-type="image/png" />
+    <item id="epub-35" href="_images/Carlfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-36" href="_images/Dalio2021-09-30.png" media-type="image/png" />
+    <item id="epub-37" href="_images/Daliofractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-38" href="_images/David_Tepper2021-09-30.png" media-type="image/png" />
+    <item id="epub-39" href="_images/David_Tepperfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-40" href="_images/Greenlight_Einhorn2021-09-30.png" media-type="image/png" />
+    <item id="epub-41" href="_images/Greenlight_Einhornfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-42" href="_images/Guy2021-09-30.png" media-type="image/png" />
+    <item id="epub-43" href="_images/Guyfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-44" href="_images/Himalaya_Li_Lu2021-09-30.png" media-type="image/png" />
+    <item id="epub-45" href="_images/Himalaya_Li_Lufractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-46" href="_images/Mohnish2021-09-30.png" media-type="image/png" />
+    <item id="epub-47" href="_images/Mohnishfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-48" href="_images/Pershing_Ackman2021-09-30.png" media-type="image/png" />
+    <item id="epub-49" href="_images/Pershing_Ackmanfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-50" href="_images/Seth2021-09-30.png" media-type="image/png" />
+    <item id="epub-51" href="_images/Sethfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-52" href="_images/TCI_Chris2021-09-30.png" media-type="image/png" />
+    <item id="epub-53" href="_images/TCI_Chrisfractional2021-09-30.png" media-type="image/png" />
+    <item id="epub-54" href="_images/indonesia_17_1.png" media-type="image/png" />
+    <item id="epub-55" href="_images/indonesia_23_1.png" media-type="image/png" />
+    <item id="epub-56" href="_images/indonesia_25_2.png" media-type="image/png" />
+    <item id="epub-57" href="_images/indonesia_27_2.png" media-type="image/png" />
+    <item id="epub-58" href="_images/indonesia_29_0.png" media-type="image/png" />
+    <item id="epub-59" href="_images/indonesia_31_0.png" media-type="image/png" />
+    <item id="epub-60" href="_images/russia2_17_2.png" media-type="image/png" />
+    <item id="epub-61" href="_images/russia2_20_2.png" media-type="image/png" />
+    <item id="epub-62" href="_images/russia2_22_2.png" media-type="image/png" />
+    <item id="epub-63" href="_images/russia2_24_2.png" media-type="image/png" />
+    <item id="epub-64" href="_images/russia2_26_2.png" media-type="image/png" />
+    <item id="epub-65" href="_images/russia2_27_2.png" media-type="image/png" />
+    <item id="epub-66" href="_images/russia_20_1.png" media-type="image/png" />
+    <item id="epub-67" href="_images/russia_23_2.png" media-type="image/png" />
+    <item id="epub-68" href="_images/russia_25_2.png" media-type="image/png" />
+    <item id="epub-69" href="_images/russia_27_2.png" media-type="image/png" />
+    <item id="epub-70" href="_images/turkey2_11_1.png" media-type="image/png" />
+    <item id="epub-71" href="_images/turkey2_19_1.png" media-type="image/png" />
+    <item id="epub-72" href="_images/turkey2_21_2.png" media-type="image/png" />
+    <item id="epub-73" href="_images/turkey2_22_2.png" media-type="image/png" />
+    <item id="epub-74" href="_images/turkey2_27_2.png" media-type="image/png" />
+    <item id="epub-75" href="_images/turkey_17_1.png" media-type="image/png" />
+    <item id="epub-76" href="_images/turkey_27_2.png" media-type="image/png" />
+    <item id="epub-77" href="_images/turkey_28_2.png" media-type="image/png" />
+    <item id="epub-78" href="_static/basic.css" media-type="text/css" />
+    <item id="epub-79" href="_static/epub.css" media-type="text/css" />
+    <item id="epub-80" href="_static/file.png" media-type="image/png" />
+    <item id="epub-81" href="_static/minus.png" media-type="image/png" />
+    <item id="epub-82" href="_static/plus.png" media-type="image/png" />
+    <item id="epub-83" href="_static/pygments.css" media-type="text/css" />
   </manifest>
   <spine toc="ncx" page-progression-direction="ltr">
-    <itemref idref="epub-2" />
+    <itemref idref="epub-25" />
+    <itemref idref="epub-22" />
+    <itemref idref="epub-26" />
+    <itemref idref="epub-27" />
+    <itemref idref="epub-29" />
     <itemref idref="epub-0" />
+    <itemref idref="epub-1" />
+    <itemref idref="epub-2" />
     <itemref idref="epub-3" />
     <itemref idref="epub-4" />
     <itemref idref="epub-5" />
-    <itemref idref="epub-1" />
-    <itemref idref="epub-6" linear="no" />
+    <itemref idref="epub-6" />
+    <itemref idref="epub-7" />
+    <itemref idref="epub-8" />
+    <itemref idref="epub-9" />
+    <itemref idref="epub-10" />
+    <itemref idref="epub-11" />
+    <itemref idref="epub-12" />
+    <itemref idref="epub-13" />
+    <itemref idref="epub-14" />
+    <itemref idref="epub-15" />
+    <itemref idref="epub-16" />
+    <itemref idref="epub-17" />
+    <itemref idref="epub-18" />
+    <itemref idref="epub-19" />
+    <itemref idref="epub-20" />
+    <itemref idref="epub-21" />
+    <itemref idref="epub-24" />
+    <itemref idref="epub-23" linear="no" />
+    <itemref idref="epub-28" linear="no" />
+    <itemref idref="epub-30" linear="no" />
+    <itemref idref="epub-31" linear="no" />
   </spine>
   <guide>
     <reference type="toc" title="Table of Contents" href="index.xhtml" />

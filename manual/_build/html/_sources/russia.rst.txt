@@ -15,7 +15,7 @@ there is any predictive aspect to this
 
 .. parsed-literal::
 
-    this report is valid till :  2022-01-14
+    this report is valid till :  2022-01-21
 
 
 Russian rubel against EURO - data taken from ECB

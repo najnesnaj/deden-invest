@@ -1,14 +1,15 @@
 EM Turkey
 ---------
 
-relationship between currency rate - inflation - stockexchange
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+relationship between currency rate - bondmarket - stockexchange
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Turkey is right now (22/01/22) not the place to invest, but it is really
 interesting because a lot is happening.
 
 I’m particularly interested in the relation between currency (Forex) and
-stock market.
+stock market. I do not have acces to detailled data, which is partly due
+to me pennypinching…
 
 From september 5th (8.5) till december 19th (16.70) the Turkish Lira
 dropped almost half in value. An intervention of the Turkish national
@@ -16,6 +17,10 @@ bank (selling of reserves) got the Lira back up till (13).
 
 A report from EMFI predicts an inversion of the yield curve and an
 inflation of (70%)!! for 2022. “SELL” is the advice to bondowners ….
+
+Future outlook : an inversion of the yield curve in the US is a
+reasonable predictor of recession. So somewhere 2022-2023 there should
+be a buying opportunity.
 
 .. math:: \beta\Gamma
 
@@ -29,19 +34,7 @@ inflation of (70%)!! for 2022. “SELL” is the advice to bondowners ….
 .. parsed-literal::
 
     <Response [200]>
-    https://sdw-wsrest.ecb.europa.eu/service/data/EXR/D.TRY.EUR.SP00.A?startPeriod=2021-12-01&endPeriod=2022-01-21
-
-
-
-.. parsed-literal::
-
-    <?xml version="1.0" encoding="UTF-8"?><message:GenericData xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXMessage.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXCommon.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXDataGeneric.xsd">
-    <message:Header>
-    <message:ID>5970e66c-46a8-454e-a74c-1762408d68fc</message:ID>
-    <message:Test>false</message:Test>
-    <message:Prepared>2022-01-22T19:38:01.613+01:00</message:Prepared>
-    <message:Sender id="ECB"/>
-    <message:Structure structureID="
+    https://sdw-wsrest.ecb.europa.eu/service/data/EXR/D.TRY.EUR.SP00.A?startPeriod=2021-01-01&endPeriod=2022-01-21
 
 
 Hmmm, the response is in XML. Not impossible, but also not the easiest
@@ -54,15 +47,6 @@ data in CSV format by specifying it in the header of the request.
     <Response [200]>
 
 
-
-
-
-.. parsed-literal::
-
-    'KEY,FREQ,CURRENCY,CURRENCY_DENOM,EXR_TYPE,EXR_SUFFIX,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,PUBL_ECB,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,COMPILATION,COVERAGE,DECIMALS,NAT_TITLE,SOURCE_AGENCY,SOURCE_PUB,TITLE,TITLE_COMPL,UNIT,UNIT_MULT\r\nEXR.D.TRY.EUR.SP00.A,D,TRY,EUR,SP00,A,2021-12-01,15.1664,A,F,,,P1D,,A,,,,,,,,"Before 1st January 2005 Turkish lira (TRL) divided by 1,000,000 is used",,4,,DE2,,Turkish lira/Euro,"ECB reference exchange rate, Turkish lira/Euro, 2:15 pm (C.E.T.)",TRY,0\r\nEXR.D.TRY.EUR.SP00.A,D,TRY,EUR,SP00,A,2021-12-02,15.2937,A,F,,,P1D,,A,,,,,,,,"Before 1st January 2005 Turkish lira (TRL) divided by 1,000,000 is used",,4,,DE2,,Turkish lira/Euro,"ECB reference exchange rate, Turkish lira/Euro, 2:15 pm (C.E.T.)",TRY,0\r\nEXR.D.TRY.EUR.SP00.A,D,TRY,EUR,SP00,A,2021-12-03,15.6131,A,F,,,P1D,,A,,,,,,,,"Before 1st January 2005 Turkish lira (TRL) divided by 1,000,000 is used",,4,,DE2,,Turkish li'
-
-
-
 The columns we need are ‘TIME_PERIOD’ for the dates and ‘OBS_VALUE’ for
 the prices. Let’s also do a sanity check on the prices in ‘OBS_VALUE’.
 
@@ -71,14 +55,14 @@ the prices. Let’s also do a sanity check on the prices in ‘OBS_VALUE’.
 
 .. parsed-literal::
 
-    count    38.000000
-    mean     15.413537
-    std       1.384352
-    min      12.652500
-    25%      15.145400
-    50%      15.432700
-    75%      15.672475
-    max      20.043400
+    count    273.000000
+    mean      10.782431
+    std        2.152224
+    min        8.397500
+    25%        9.703800
+    50%       10.138500
+    75%       10.782100
+    max       20.043400
     Name: OBS_VALUE, dtype: float64
 
 
@@ -115,53 +99,60 @@ the prices. Let’s also do a sanity check on the prices in ‘OBS_VALUE’.
       </thead>
       <tbody>
         <tr>
-          <th>2022-01-10</th>
-          <td>15.7183</td>
+          <th>2021-01-04</th>
+          <td>NaN</td>
         </tr>
         <tr>
-          <th>2022-01-11</th>
-          <td>15.6960</td>
+          <th>2021-01-05</th>
+          <td>0.001270</td>
         </tr>
         <tr>
-          <th>2022-01-12</th>
-          <td>15.5922</td>
+          <th>2021-01-06</th>
+          <td>-0.001544</td>
         </tr>
         <tr>
-          <th>2022-01-13</th>
-          <td>15.5744</td>
+          <th>2021-01-07</th>
+          <td>-0.006261</td>
         </tr>
         <tr>
-          <th>2022-01-14</th>
-          <td>15.5256</td>
+          <th>2021-01-08</th>
+          <td>0.001767</td>
+        </tr>
+        <tr>
+          <th>...</th>
+          <td>...</td>
         </tr>
         <tr>
           <th>2022-01-17</th>
-          <td>15.2757</td>
+          <td>-0.016096</td>
         </tr>
         <tr>
           <th>2022-01-18</th>
-          <td>15.4447</td>
+          <td>0.011063</td>
         </tr>
         <tr>
           <th>2022-01-19</th>
-          <td>15.4207</td>
+          <td>-0.001554</td>
         </tr>
         <tr>
           <th>2022-01-20</th>
-          <td>15.2094</td>
+          <td>-0.013702</td>
         </tr>
         <tr>
           <th>2022-01-21</th>
-          <td>15.2230</td>
+          <td>0.000894</td>
         </tr>
       </tbody>
     </table>
+    <p>273 rows × 1 columns</p>
     </div>
 
 
 
 the spike is the FX - market is 2021-12-20 where you get 20.0434 Lira
 for 1 Euro.
+
+The stockmarket came down on monday 20/12.
 
 
 
@@ -175,6 +166,8 @@ for 1 Euro.
 
 .. image:: turkey_files/turkey_17_1.png
 
+
+OK another spike on 2021-03 …. what happened on stock exchange?
 
 Turkish lira against EURO - data taken from ECB, you can see a spike at
 december 20th. Subsequently there is an intervention from the Turkish
@@ -247,6 +240,87 @@ MSCI Turkey.
       </thead>
       <tbody>
         <tr>
+          <th>2021-12-08</th>
+          <td>19.860001</td>
+          <td>19.950001</td>
+          <td>19.650000</td>
+          <td>19.900000</td>
+          <td>19.808952</td>
+          <td>306300</td>
+        </tr>
+        <tr>
+          <th>2021-12-09</th>
+          <td>20.000000</td>
+          <td>20.100000</td>
+          <td>19.610001</td>
+          <td>19.680000</td>
+          <td>19.589960</td>
+          <td>398400</td>
+        </tr>
+        <tr>
+          <th>2021-12-10</th>
+          <td>19.840000</td>
+          <td>19.930000</td>
+          <td>19.690001</td>
+          <td>19.889999</td>
+          <td>19.798998</td>
+          <td>177100</td>
+        </tr>
+        <tr>
+          <th>2021-12-13</th>
+          <td>20.260000</td>
+          <td>20.680000</td>
+          <td>20.260000</td>
+          <td>20.480000</td>
+          <td>20.480000</td>
+          <td>461600</td>
+        </tr>
+        <tr>
+          <th>2021-12-14</th>
+          <td>20.350000</td>
+          <td>20.580000</td>
+          <td>20.150000</td>
+          <td>20.430000</td>
+          <td>20.430000</td>
+          <td>397400</td>
+        </tr>
+        <tr>
+          <th>2021-12-15</th>
+          <td>20.049999</td>
+          <td>20.309999</td>
+          <td>19.820000</td>
+          <td>20.230000</td>
+          <td>20.230000</td>
+          <td>916600</td>
+        </tr>
+        <tr>
+          <th>2021-12-16</th>
+          <td>19.840000</td>
+          <td>19.950001</td>
+          <td>19.670000</td>
+          <td>19.879999</td>
+          <td>19.879999</td>
+          <td>496200</td>
+        </tr>
+        <tr>
+          <th>2021-12-17</th>
+          <td>17.400000</td>
+          <td>17.719999</td>
+          <td>16.969999</td>
+          <td>17.110001</td>
+          <td>17.110001</td>
+          <td>2584300</td>
+        </tr>
+        <tr>
+          <th>2021-12-20</th>
+          <td>15.290000</td>
+          <td>21.500000</td>
+          <td>15.000000</td>
+          <td>20.740000</td>
+          <td>20.740000</td>
+          <td>8629000</td>
+        </tr>
+        <tr>
           <th>2021-12-21</th>
           <td>19.500000</td>
           <td>19.850000</td>
@@ -255,96 +329,35 @@ MSCI Turkey.
           <td>19.379999</td>
           <td>2271800</td>
         </tr>
-        <tr>
-          <th>2021-12-22</th>
-          <td>19.379999</td>
-          <td>19.549999</td>
-          <td>18.620001</td>
-          <td>18.980000</td>
-          <td>18.980000</td>
-          <td>557400</td>
-        </tr>
-        <tr>
-          <th>2021-12-23</th>
-          <td>20.799999</td>
-          <td>21.690001</td>
-          <td>20.459999</td>
-          <td>20.900000</td>
-          <td>20.900000</td>
-          <td>1899200</td>
-        </tr>
-        <tr>
-          <th>2021-12-27</th>
-          <td>21.799999</td>
-          <td>22.090000</td>
-          <td>21.620001</td>
-          <td>21.719999</td>
-          <td>21.719999</td>
-          <td>1162300</td>
-        </tr>
-        <tr>
-          <th>2021-12-28</th>
-          <td>20.700001</td>
-          <td>21.010000</td>
-          <td>20.510000</td>
-          <td>20.690001</td>
-          <td>20.690001</td>
-          <td>395300</td>
-        </tr>
-        <tr>
-          <th>2021-12-29</th>
-          <td>20.100000</td>
-          <td>20.410000</td>
-          <td>19.610001</td>
-          <td>20.059999</td>
-          <td>20.059999</td>
-          <td>390300</td>
-        </tr>
-        <tr>
-          <th>2021-12-30</th>
-          <td>19.389999</td>
-          <td>19.420000</td>
-          <td>18.660000</td>
-          <td>18.990000</td>
-          <td>18.990000</td>
-          <td>768100</td>
-        </tr>
-        <tr>
-          <th>2021-12-31</th>
-          <td>18.809999</td>
-          <td>18.900000</td>
-          <td>18.299999</td>
-          <td>18.580000</td>
-          <td>18.580000</td>
-          <td>790500</td>
-        </tr>
-        <tr>
-          <th>2022-01-03</th>
-          <td>19.309999</td>
-          <td>20.469999</td>
-          <td>19.190001</td>
-          <td>19.990000</td>
-          <td>19.990000</td>
-          <td>1607000</td>
-        </tr>
-        <tr>
-          <th>2022-01-04</th>
-          <td>19.700001</td>
-          <td>19.830000</td>
-          <td>19.299999</td>
-          <td>19.620001</td>
-          <td>19.620001</td>
-          <td>305200</td>
-        </tr>
       </tbody>
     </table>
     </div>
 
 
 
-you can see : 2021-12-20 a 15.290000 low, which is same date as currency
-hike. **hypothesis:** somebody is closely watching exchange rate on spot
-market and hits “sell-button” on stock-exchange?
+**What is happening on 2021-12-17 ?** People selling of, are well
+informed, but how?
+
+*graph is turkish MSCI index in dollar*
+
+
+.. parsed-literal::
+
+    [*********************100%***********************]  1 of 1 completed
+                        Low
+    Date                   
+    2021-12-15  2145.600098
+    2021-12-16  2175.500000
+    2021-12-17  2071.300049
+    2021-12-20  1914.000000
+    2021-12-21  1884.699951
+                       High
+    Date                   
+    2021-12-15  2195.100098
+    2021-12-16  2278.600098
+    2021-12-17  2406.899902
+    2021-12-20  2149.399902
+    2021-12-21  2103.600098
 
 
 
@@ -356,10 +369,8 @@ market and hits “sell-button” on stock-exchange?
 
 
 
-.. image:: turkey_files/turkey_24_1.png
+.. image:: turkey_files/turkey_27_2.png
 
-
-*graph is turkish MSCI index in dollar*
 
 
 .. parsed-literal::
@@ -376,18 +387,27 @@ market and hits “sell-button” on stock-exchange?
 
 
 
-.. image:: turkey_files/turkey_26_2.png
+.. image:: turkey_files/turkey_28_2.png
 
-
-in order to get inflation data (which is probably even higher) a
-technique “webscraping” is used
 
 
 .. parsed-literal::
 
-    <Response [200]>
-    test
+     daily spread of  :  13  %
 
+
+The big question is : could the exchange-rate rise be a warning? monday
+2021-12-14 16.2092 tuesday 2021-12-15 16.5612 wednesdag 2021-12-16
+17.5824
+
+
+.. parsed-literal::
+
+    6.1662198391420935
+
+
+A currency change of 6 percent in one day? — can I backtest this? Seems
+in March same thing happened.
 
 Credit Default Swaps – different types for CDS on ABS - continued -
 Fixed Cap: Maximum amount that the protection seller has to pay buyer is
