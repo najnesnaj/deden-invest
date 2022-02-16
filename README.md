@@ -1,5 +1,13 @@
 # deden-invest
 
+
+Here you can find some tools to support an investment decision.
+
+What are investment Gurus up to; double check with insider transactions.
+
+Automating warning signals proved too ambitious, realtime (paid) data is needed.
+
+
 This repository is a tribute to Anthony Deden.
 -----------------------------------------------
 
@@ -38,7 +46,9 @@ As an individual investor you need to be aware of your position.
 
 The purpose of this project is to : 
 - monitor market risk (country report) 
+I focused on currency changes as a warning signal, seems to work only in the case of Turkey
 - analyse pricing of certain assets (buy/sell advise)
+Followup of 8 Guru investors (but there is a 4 month time delay!)
 - benchmark own portfolio
 
 ### documentation
@@ -62,16 +72,14 @@ You can find the the notebooks under the notebooks directory.
 
 ## TODO
 - bond-futures, CDS, ...  (smart money, markettiming)
-- shopping list (using own database)
-- sec 4 form 
-- own portfolio follow up
 
 ## DONE
-- python script to scrape Belgian insider website (Euronext directory)
-- country report on a few EM, using Jupyter notebooks
-- value investor data scraping (13F) (edgar directory)
-- plotting graph (candlestick) with investor info on hover-over
-- plotting portfolio well known investors
+- python script to scrape Belgian insider website and store in database (Euronext directory)
+- country report on a few EM, using Jupyter notebooks (notebooks)
+- value investor data scraping and storing in database (13F) (edgar directory) 
+- insider trading form 4 (scraping and storing in database)
+- plotting graph (candlestick) with investor info on hover-over (samples directory)
+- plotting portfolio well known investors (samples)
 
 
 

@@ -17,7 +17,8 @@ Fund managers have to file their position, using the "13F" form.
 
 important dates : 
 
-- 13F is filed 45 days after the reported quarter 
+- 13F is filed after the reported quarter 
+- the transactiondate is an estimate eg. half the quarter = 45 days
 - filing date
 - publishing date 
 
@@ -60,7 +61,7 @@ OK the data is now contained in our edgardb database, and now what?
 first of all, we need to convert the cusip number of the stocks to a usable stockquote. 
 
 -> update_whodoneit.py
--> Stock_Symbol_CUSIP.csv (found on github)
+-> Stock_Symbol_CUSIP.csv (found it on github)
 
 
 # plotting revisited

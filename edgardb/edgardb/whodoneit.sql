@@ -1,13 +1,13 @@
 BEGIN TRANSACTION;
 CREATE TABLE IF NOT EXISTS "whodoneit" (
 	"transactionID"	TEXT PRIMARY KEY,
-	"Name"	TEXT,
+	"CUSIP"	TEXT,
 	"totalamount"	REAL,
 	"sellorbuy"	TEXT,
 	"datepurchase"	TEXT,
 	"datereporting"	TEXT,
 	"importance"	TEXT,
-	"where"	TEXT,
+	"CIK"	TEXT,
 	"ticker"	TEXT,
 	"howmany"	REAL,
 	"shareprice"	REAL,
