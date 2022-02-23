@@ -11,10 +11,8 @@ from Retrieve4 import RetrieveForm4
 ### purpose is to check if any insiders bought/sold shares, that the Guru's bought/sold
 
 
-#CIK_2 = '320193'
-CIK_2 = '769397'
-#Name_2 = 'APPLE'
-Name_2 = 'Autodesk'
+CIK_2 = '1065059'
+Name_2 = 'LEU'
 formstoget = 40
 
 RetrieveForm4(CIK_2,Name_2,formstoget)

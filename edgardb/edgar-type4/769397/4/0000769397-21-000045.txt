@@ -1,0 +1,235 @@
+<SEC-DOCUMENT>0000769397-21-000045.txt : 20210621
+<SEC-HEADER>0000769397-21-000045.hdr.sgml : 20210621
+<ACCEPTANCE-DATETIME>20210621181601
+ACCESSION NUMBER:		0000769397-21-000045
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20210616
+FILED AS OF DATE:		20210621
+DATE AS OF CHANGE:		20210621
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Howard Ayanna
+		CENTRAL INDEX KEY:			0001788899
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-14338
+		FILM NUMBER:		211032370
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PARKWAY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Autodesk, Inc.
+		CENTRAL INDEX KEY:			0000769397
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-PREPACKAGED SOFTWARE [7372]
+		IRS NUMBER:				942819853
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0131
+
+	BUSINESS ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+		BUSINESS PHONE:		4155075000
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	AUTODESK INC
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_162431374278314.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-06-16</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000769397</issuerCik>
+        <issuerName>Autodesk, Inc.</issuerName>
+        <issuerTradingSymbol>ADSK</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001788899</rptOwnerCik>
+            <rptOwnerName>Howard Ayanna</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>111 MCINNIS PARKWAY</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SAN RAFAEL</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>94903</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-06-16</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>328</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>2986</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-06-16</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F3"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>913</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3899</value>
+                    <footnoteId id="F4"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The Reporting Person is entitled to receive one share of Common Stock for each Restricted Stock Unit. These are Restricted Stock Units granted under the 2012 Outside Directors' Stock Plan in lieu of cash compensation for services as a director, and vest on the date of the next annual meeting.</footnote>
+        <footnote id="F2">The total securities beneficially owned includes 328 shares of unvested Restricted Stock Units and 1,239 shares of vested Restricted Stock Units the distribution of which the reporting person has deferred under the 2012 Outside Directors' Stock Plan.</footnote>
+        <footnote id="F3">The Reporting Person is entitled to receive one share of Common Stock for each Restricted Stock Unit. These Restricted Stock Units, which are granted annually under the 2012 Outside Directors' Stock Plan, vest on the date of the next annual meeting.</footnote>
+        <footnote id="F4">The total securities beneficially owned includes 1,241 shares of unvested Restricted Stock Units and 1,239 shares of vested Restricted Stock Units the distribution of which the reporting person has deferred under the 2012 Outside Directors' Stock Plan.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Melissa Hoge, Attorney-in-Fact for Ayanna Howard</signatureName>
+        <signatureDate>2021-06-21</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-24
+<SEQUENCE>2
+<FILENAME>section16poa_howardxoctobe.htm
+<DESCRIPTION>HOWARD_POA 2020
+<TEXT>
+<!-- Document created using Workiva -->
+<html>
+<body>
+<pre>
+POWER OF ATTORNEY
+
+    The undersigned, as a Section 16 reporting person of Autodesk, Inc. (the "Company"), hereby constitutes and appoints Pascal W. Di Fronzo, Naomi Meyers, Amanda Riley, Stephanie Tang, Kate Perkins, Melissa Hoge, Andrew Chew, and each of them, the undersigneds true and lawful attorney-in-fact to:
+
+1. complete and execute Form ID (and any other documents necessary or appropriate to obtain codes and passwords enabling the undersigned to make electronic filings with the Securities and Exchange Commission) and Forms 3, 4 and 5 and other forms and all amendments thereto as such attorney-in-fact shall in his or her discretion determine to be required or advisable pursuant to Section 16 of the Securities Exchange Act of 1934 (as amended) and the rules and regulations promulgated thereunder, or any successor laws and regulations, as a consequence of the undersigneds ownership, acquisition or disposition of securities of the Company; and
+
+2. do all acts necessary in order to file such forms with the Securities and Exchange Commission, any securities exchange or national association, the Company and such other person or agency as the attorney-in-fact shall deem appropriate.
+
+      The undersigned hereby ratifies and confirms all that said attorneys-in-fact and agents shall do or cause to be done by virtue hereof. The undersigned acknowledges that the foregoing attorneys-in-fact, in serving in such capacity at the request of the undersigned, are not assuming, nor is the Company assuming, any of the undersigned's responsibilities to comply with Section 16 of the Securities Exchange Act of 1934 (as amended).
+
+    This Power of Attorney shall remain in full force and effect until the undersigned is no longer required to file Forms 3, 4 and 5 with respect to the undersigneds holdings of and transactions in securities issued by the Company, unless earlier revoked by the undersigned in a signed writing delivered to the Company and the foregoing attorneys-in-fact.
+
+    IN WITNESS WHEREOF, the undersigned has caused this Power of Attorney to be executed as of this 1st day of October, 2020.
+
+
+
+
+Signature:/s/ Dr. Ayanna Howard
+
+Print Name: DR. AYANNA HOWARD
+
+
+
+</pre>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

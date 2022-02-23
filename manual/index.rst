@@ -5,6 +5,7 @@ INDEX
 .. toctree::
 
         about.rst
+        Deden.rst
         indonesia.rst
         russia.rst
         turkey.rst

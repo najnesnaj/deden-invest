@@ -1,0 +1,238 @@
+<SEC-DOCUMENT>0000769397-22-000002.txt : 20220103
+<SEC-HEADER>0000769397-22-000002.hdr.sgml : 20220103
+<ACCEPTANCE-DATETIME>20220103165956
+ACCESSION NUMBER:		0000769397-22-000002
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20211230
+FILED AS OF DATE:		20220103
+DATE AS OF CHANGE:		20220103
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			NORRINGTON LORRIE M
+		CENTRAL INDEX KEY:			0001188898
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-14338
+		FILM NUMBER:		22502820
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O EBAY INC.
+		STREET 2:		2145 HAMILTON AVENUE
+		CITY:			SAN JOSE
+		STATE:			CA
+		ZIP:			95125
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Autodesk, Inc.
+		CENTRAL INDEX KEY:			0000769397
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-PREPACKAGED SOFTWARE [7372]
+		IRS NUMBER:				942819853
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0131
+
+	BUSINESS ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+		BUSINESS PHONE:		4155075000
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	AUTODESK INC
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_164124717784237.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-12-30</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000769397</issuerCik>
+        <issuerName>Autodesk, Inc.</issuerName>
+        <issuerTradingSymbol>ADSK</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001188898</rptOwnerCik>
+            <rptOwnerName>NORRINGTON LORRIE M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>111 MCINNIS PKWY</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SAN RAFAEL</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>94903</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-12-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>600</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>280.01</value>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>14797</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-12-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1250</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>281.19</value>
+                    <footnoteId id="F4"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>13547</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-12-30</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3080</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>282.46</value>
+                    <footnoteId id="F5"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>10467</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">(1) The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on September 30, 2021.</footnote>
+        <footnote id="F2">Shares were sold in various amounts from $279.60 to $280.33 inclusive. The price listed here reflects the average weighted price. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.</footnote>
+        <footnote id="F3">The total securities beneficially owned includes 4,911 shares of unvested Restricted Stock Units.</footnote>
+        <footnote id="F4">Shares were sold in various amounts from $280.88 to $281.61 inclusive. The price listed here reflects the average weighted price. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.</footnote>
+        <footnote id="F5">Shares were sold in various amounts from $281.95 to $282.77 inclusive. The price listed here reflects the average weighted price. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Melissa Hoge, Attorney in Fact for Lorrie Norrington</signatureName>
+        <signatureDate>2022-01-03</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

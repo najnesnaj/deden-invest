@@ -1,0 +1,242 @@
+<SEC-DOCUMENT>0001209191-21-022715.txt : 20210323
+<SEC-HEADER>0001209191-21-022715.hdr.sgml : 20210323
+<ACCEPTANCE-DATETIME>20210323193916
+ACCESSION NUMBER:		0001209191-21-022715
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20210321
+FILED AS OF DATE:		20210323
+DATE AS OF CHANGE:		20210323
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Hope Stephen W.
+		CENTRAL INDEX KEY:			0001780227
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-14338
+		FILM NUMBER:		21766125
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PARKWAY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Autodesk, Inc.
+		CENTRAL INDEX KEY:			0000769397
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-PREPACKAGED SOFTWARE [7372]
+		IRS NUMBER:				942819853
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0131
+
+	BUSINESS ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+		BUSINESS PHONE:		4155075000
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	AUTODESK INC
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<DESCRIPTION>FORM 4 SUBMISSION
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-03-21</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000769397</issuerCik>
+        <issuerName>Autodesk, Inc.</issuerName>
+        <issuerTradingSymbol>ADSK</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001780227</rptOwnerCik>
+            <rptOwnerName>Hope Stephen W.</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>111 MCINNIS PARKWAY</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SAN RAFAEL</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>94903</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>VP &amp; Chief Accounting Officer</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-21</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>F</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>147</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>261.50</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>4476</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-22</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>F</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>193</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>261.50</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>4283</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-23</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F4"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>593</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>268.91</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>3690</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Shares withheld to cover taxes.</footnote>
+        <footnote id="F2">The total securities beneficially owned includes 4,251 shares of unvested Restricted Stock Units.</footnote>
+        <footnote id="F3">The total securities beneficially owned includes 3,690 shares of unvested Restricted Stock Units.</footnote>
+        <footnote id="F4">The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on 12/11/2020.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Pascal W. Di Fronzo, Attorney-in-Fact for Stephen Hope</signatureName>
+        <signatureDate>2021-03-23</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

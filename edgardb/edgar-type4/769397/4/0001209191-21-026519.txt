@@ -1,0 +1,253 @@
+<SEC-DOCUMENT>0001209191-21-026519.txt : 20210413
+<SEC-HEADER>0001209191-21-026519.hdr.sgml : 20210413
+<ACCEPTANCE-DATETIME>20210413190836
+ACCESSION NUMBER:		0001209191-21-026519
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20210410
+FILED AS OF DATE:		20210413
+DATE AS OF CHANGE:		20210413
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Anagnost Andrew
+		CENTRAL INDEX KEY:			0001661768
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-14338
+		FILM NUMBER:		21824221
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PARKWAY
+		STREET 2:		AUTODESK, INC.
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Autodesk, Inc.
+		CENTRAL INDEX KEY:			0000769397
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-PREPACKAGED SOFTWARE [7372]
+		IRS NUMBER:				942819853
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0131
+
+	BUSINESS ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+		BUSINESS PHONE:		4155075000
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	AUTODESK INC
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<DESCRIPTION>FORM 4 SUBMISSION
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-04-10</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000769397</issuerCik>
+        <issuerName>Autodesk, Inc.</issuerName>
+        <issuerTradingSymbol>ADSK</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001661768</rptOwnerCik>
+            <rptOwnerName>Anagnost Andrew</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>111 MCINNIS PARKWAY</rptOwnerStreet1>
+            <rptOwnerStreet2>AUTODESK, INC.</rptOwnerStreet2>
+            <rptOwnerCity>SAN RAFAEL</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>94903</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>President and CEO</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-04-10</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>23514</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0.00</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>96177</value>
+                    <footnoteId id="F2"/>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>2434</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Family Trust</value>
+                    <footnoteId id="F4"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The Reporting Person is entitled to receive one share of Common Stock for each Restricted Stock Unit. These Restricted Stock Units vest as to approximately 1/3 of the total shares on an approximate annual basis over a 3-year period from the date of grant on April 10, 2021.</footnote>
+        <footnote id="F2">The total securities beneficially owned includes 56,201 shares of unvested Restricted Stock Units.</footnote>
+        <footnote id="F3">Includes shares acquired in March 2021 pursuant to the Issuer's Employee Stock Purchase Plan.</footnote>
+        <footnote id="F4">Shares are beneficially owned by the VNTC Cottee Andrew Anagnost and Marie Burkhart Family Support Trust (&quot;Family Trust&quot;), of which Vanguard National Trust Company, Marie Burkhart, and the Reporting Person are trustees. The Reporting Person does not have voting or dispositive power over such shares and disclaims beneficial ownership of such shares except to the extent of any pecuniary interest therein.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Melissa Hoge, Attorney-in-Fact for Andrew Anagnost</signatureName>
+        <signatureDate>2021-04-13</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-24
+<SEQUENCE>2
+<FILENAME>attachment1.htm
+<DESCRIPTION>EX-24 DOCUMENT
+<TEXT>
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<PRE>
+POWER OF ATTORNEY
+
+	The undersigned, as a Section 16 reporting person of
+Autodesk, Inc. (the Company), hereby constitutes and appoints
+Pascal W. Di Fronzo, Naomi Meyers, Amanda Riley, Stephanie Tang,
+Kate Perkins, Melissa Hoge, Andrew Chew, and each of them, the
+undersigneds true and lawful attorney-in-fact to:
+
+1.	complete and execute Form ID (and any other documents
+necessary or appropriate to obtain codes and passwords
+enabling the undersigned to make electronic filings with
+the Securities and Exchange Commission) and Forms 3, 4
+and 5 and other forms and all amendments thereto as such
+attorney-in-fact shall in his or her discretion determine
+to be required or advisable pursuant to Section 16 of the
+Securities Exchange Act of 1934 (as amended) and the
+rules and regulations promulgated thereunder, or any
+successor laws and regulations, as a consequence of the
+undersigneds ownership, acquisition or disposition of
+securities of the Company; and
+
+2.	do all acts necessary in order to file such forms with
+the Securities and Exchange Commission, any securities
+exchange or national association, the Company and such
+other person or agency as the attorney-in-fact shall deem
+appropriate.
+
+      The undersigned hereby ratifies and confirms all that said
+attorneys-in-fact and agents shall do or cause to be done by
+virtue hereof. The undersigned acknowledges that the foregoing
+attorneys-in-fact, in serving in such capacity at the request of
+the undersigned, are not assuming, nor is the Company assuming,
+any of the undersigneds responsibilities to comply with Section
+16 of the Securities Exchange Act of 1934 (as amended).
+
+	This Power of Attorney shall remain in full force and
+effect until the undersigned is no longer required to file Forms
+3, 4 and 5 with respect to the undersigneds holdings of and
+transactions in securities issued by the Company, unless earlier
+revoked by the undersigned in a signed writing delivered to the
+Company and the foregoing attorneys-in-fact.
+
+	IN WITNESS WHEREOF, the undersigned has caused this Power
+of Attorney to be executed as of this 29th day of March, 2021.
+
+
+
+
+Signature:/s/ Andrew Anagnost
+
+Print Name: ANDREW ANAGNOST
+
+
+
+</PRE>
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

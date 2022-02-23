@@ -8,7 +8,7 @@ https://github.com/zpetan/sec-13f-portfolio-python
 
 were slightly modified
 
-Getting financial data for free is not an easy task. (thanks Yahoo)
+Getting financial data for free is not an easy task. (thanks Yahoo and thank you SEC)
 
 
 # What is this about?

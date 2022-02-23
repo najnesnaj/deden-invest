@@ -1,0 +1,443 @@
+<SEC-DOCUMENT>0001209191-21-024716.txt : 20210402
+<SEC-HEADER>0001209191-21-024716.hdr.sgml : 20210402
+<ACCEPTANCE-DATETIME>20210402172355
+ACCESSION NUMBER:		0001209191-21-024716
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20210331
+FILED AS OF DATE:		20210402
+DATE AS OF CHANGE:		20210402
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Di Fronzo Pascal W
+		CENTRAL INDEX KEY:			0001394844
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-14338
+		FILM NUMBER:		21803012
+
+	MAIL ADDRESS:	
+		STREET 1:		AUTODESK, INC.
+		STREET 2:		111 MCINNIS PARKWAY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Autodesk, Inc.
+		CENTRAL INDEX KEY:			0000769397
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-PREPACKAGED SOFTWARE [7372]
+		IRS NUMBER:				942819853
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0131
+
+	BUSINESS ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+		BUSINESS PHONE:		4155075000
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	AUTODESK INC
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<DESCRIPTION>FORM 4 SUBMISSION
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-03-31</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000769397</issuerCik>
+        <issuerName>Autodesk, Inc.</issuerName>
+        <issuerTradingSymbol>ADSK</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001394844</rptOwnerCik>
+            <rptOwnerName>Di Fronzo Pascal W</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>111 MCINNIS PKWY</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>SAN RAFAEL</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>94903</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>EVP, Corp Affairs, CLO &amp; Sec</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-31</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>278</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>269.79</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>11909</value>
+                    <footnoteId id="F2"/>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-31</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>100</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>271.20</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>11809</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-31</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>500</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>274.18</value>
+                    <footnoteId id="F4"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>11309</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-31</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1350</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>275.32</value>
+                    <footnoteId id="F5"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>9959</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-31</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>2548</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>276.29</value>
+                    <footnoteId id="F6"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7411</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-03-31</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>200</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>277.32</value>
+                    <footnoteId id="F7"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7211</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on 12/17/2020.</footnote>
+        <footnote id="F2">Includes shares acquired in March 2021 pursuant to the Issuer's Employee Stock Purchase Plan.</footnote>
+        <footnote id="F3">The total securities beneficially owned includes 6,915 shares of unvested Restricted Stock Units.</footnote>
+        <footnote id="F4">Shares were sold in various amounts from $273.69 to $274.51 inclusive. The price listed here reflects the average weighted price. The
+Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission,
+upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote</footnote>
+        <footnote id="F5">Shares were sold in various amounts from $274.98 to $275.858 inclusive. The price listed here reflects the average weighted price. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.</footnote>
+        <footnote id="F6">Shares were sold in various amounts from $275.99 to $276.98 inclusive. The price listed here reflects the average weighted price. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.</footnote>
+        <footnote id="F7">Shares were sold in various amounts from $277.30 to $277.34 inclusive. The price listed here reflects the average weighted price. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Melissa Hoge, Attorney-in-Fact for Pascal W. Di Fronzo</signatureName>
+        <signatureDate>2021-04-01</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-24
+<SEQUENCE>2
+<FILENAME>attachment1.htm
+<DESCRIPTION>EX-24 DOCUMENT
+<TEXT>
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<PRE>
+POWER OF ATTORNEY
+
+	The undersigned, as a Section 16 reporting person of
+Autodesk, Inc. (the Company), hereby constitutes and appoints
+Naomi Meyers, Amanda Riley, Stephanie Tang, Kate Perkins,
+Melissa Hoge, Andrew Chew, and each of them, the
+undersigneds true and lawful attorney-in-fact to:
+
+1.	complete and execute Form ID (and any other documents
+necessary or appropriate to obtain codes and passwords
+enabling the undersigned to make electronic filings with
+the Securities and Exchange Commission) and Forms 3, 4
+and 5 and other forms and all amendments thereto as such
+attorney-in-fact shall in his or her discretion determine
+to be required or advisable pursuant to Section 16 of the
+Securities Exchange Act of 1934 (as amended) and the
+rules and regulations promulgated thereunder, or any
+successor laws and regulations, as a consequence of the
+undersigneds ownership, acquisition or disposition of
+securities of the Company; and
+
+2.	do all acts necessary in order to file such forms with
+the Securities and Exchange Commission, any securities
+exchange or national association, the Company and such
+other person or agency as the attorney-in-fact shall deem
+appropriate.
+
+      The undersigned hereby ratifies and confirms all that said
+attorneys-in-fact and agents shall do or cause to be done by
+virtue hereof. The undersigned acknowledges that the foregoing
+attorneys-in-fact, in serving in such capacity at the request of
+the undersigned, are not assuming, nor is the Company assuming,
+any of the undersigneds responsibilities to comply with Section
+16 of the Securities Exchange Act of 1934 (as amended).
+
+	This Power of Attorney shall remain in full force and
+effect until the undersigned is no longer required to file Forms
+3, 4 and 5 with respect to the undersigneds holdings of and
+transactions in securities issued by the Company, unless earlier
+revoked by the undersigned in a signed writing delivered to the
+Company and the foregoing attorneys-in-fact.
+
+	IN WITNESS WHEREOF, the undersigned has caused this Power
+of Attorney to be executed as of this 29th day of March, 2021.
+
+
+
+
+Signature:/s/ Pascal W. Di Fronzo
+
+Print Name: PASCAL W. DI FRONZO
+
+
+
+</PRE>
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

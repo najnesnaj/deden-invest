@@ -1,0 +1,180 @@
+<SEC-DOCUMENT>0000769397-21-000097.txt : 20211207
+<SEC-HEADER>0000769397-21-000097.hdr.sgml : 20211207
+<ACCEPTANCE-DATETIME>20211207170755
+ACCESSION NUMBER:		0000769397-21-000097
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20211203
+FILED AS OF DATE:		20211207
+DATE AS OF CHANGE:		20211207
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Anagnost Andrew
+		CENTRAL INDEX KEY:			0001661768
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-14338
+		FILM NUMBER:		211476744
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PARKWAY
+		STREET 2:		AUTODESK, INC.
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Autodesk, Inc.
+		CENTRAL INDEX KEY:			0000769397
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-PREPACKAGED SOFTWARE [7372]
+		IRS NUMBER:				942819853
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0131
+
+	BUSINESS ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+		BUSINESS PHONE:		4155075000
+
+	MAIL ADDRESS:	
+		STREET 1:		111 MCINNIS PKWY
+		CITY:			SAN RAFAEL
+		STATE:			CA
+		ZIP:			94903
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	AUTODESK INC
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>wf-form4_163891485188661.xml
+<DESCRIPTION>FORM 4
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2021-12-03</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000769397</issuerCik>
+        <issuerName>Autodesk, Inc.</issuerName>
+        <issuerTradingSymbol>ADSK</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001661768</rptOwnerCik>
+            <rptOwnerName>Anagnost Andrew</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>111 MCINNIS PARKWAY</rptOwnerStreet1>
+            <rptOwnerStreet2>AUTODESK, INC.</rptOwnerStreet2>
+            <rptOwnerCity>SAN RAFAEL</rptOwnerCity>
+            <rptOwnerState>CA</rptOwnerState>
+            <rptOwnerZipCode>94903</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>President and CEO</officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2021-12-03</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>4724</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>256.27</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                    <footnoteId id="F1"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>Family Trust</value>
+                    <footnoteId id="F2"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeHolding>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>67496</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeHolding>
+    </nonDerivativeTable>
+
+    <derivativeTable></derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Reflects the transfer of 4,724 shares from the Reporting Person's spouse to the Family Trust (as defined below) prior to the transactions reported on this line.</footnote>
+        <footnote id="F2">Shares are beneficially owned by the VNTC Cottee Andrew Anagnost and Marie Burkhart Family Support Trust (&quot;Family Trust&quot;), of which Vanguard National Trust Company, Marie Burkhart, and the Reporting Person are trustees. The Reporting Person does not have voting or dispositive power over such shares and disclaims beneficial ownership of such shares except to the extent of any pecuniary interest therein.</footnote>
+        <footnote id="F3">The total securities beneficially owned includes 56,201 shares of unvested Restricted Stock Units.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>Melissa Hoge, Attorney-in-Fact for Andrew Anagnost</signatureName>
+        <signatureDate>2021-12-07</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
