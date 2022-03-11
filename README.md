@@ -80,7 +80,7 @@ You can find the the notebooks under the notebooks directory.
 - insider trading form 4 (scraping and storing in database)
 - plotting graph (candlestick) with investor info on hover-over (samples directory)
 - plotting portfolio well known investors (samples)
-
+- analyzing 100000 company balance sheet data  (tickers directory)
 
 
 
