@@ -13,9 +13,10 @@ from Filing13FHR import Filing13F
 #from secedgar.filings import filings, FilingType
 #from secedgar import filings
 #from secedgar.filings import FilingType
-from secedgar import filings, FilingType
+#from secedgar import filings 
+from secedgar.filings import  Filing,FilingType
 import matplotlib
-matplotlib.use('Qt5Agg')
+#matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 import matplotlib.cm as cmx
@@ -69,15 +70,17 @@ class Portfolio:
 #                     user_agent="najnesnaj@gmail.com", count=4)
 
         
-        self.filings = filings(cik_lookup=self.CIK,
-                              #filing_type=FilingType.FILING_13F,
-                              filing_type=FilingType.FILING_13FHR,
+        #self.filings = filings(cik_lookup=self.CIK,
+        self.filings = Filing(cik_lookup=self.CIK,
+                              filing_type=FilingType.FILING_13F,
+                              #filing_type=FilingType.FILING_13FHR,
                               user_agent="najnesnaj@gmail.com",
                               count=4) # Set count=4 for the last four filings
         
         foldername = 'edgar-filings'
         self.filings.save(foldername)
-        self.directory = foldername + '/' + self.CIK + '/13F-HR' # example: "Edgar filings_XML/CIK/13f"
+        #self.directory = foldername + '/' + self.CIK + '/13F-HR' # example: "Edgar filings_XML/CIK/13f"
+        self.directory = foldername + '/' + self.CIK + '/13f' # example: "Edgar filings_XML/CIK/13f"
 
 
 
@@ -141,13 +144,13 @@ class Portfolio:
             #print ("i", i, "stock", stock)
             try:
                 cursor.execute('''INSERT INTO whodoneit( "transactionID",
-                "Name"  ,
+                "CUSIP"  ,
                 "totalamount"   ,
                 "sellorbuy"     ,
                 "datepurchase"  ,
                 "datereporting" ,
                 "importance"    ,
-                "where" ,
+                "CIK" ,
                 "ticker"     ,
                 "howmany"       ,
                 "shareprice"    ,
@@ -200,14 +203,15 @@ class Portfolio:
         report_dates.sort(reverse=True) # Most recent first
         filing_dates.sort(reverse=True) # Most recent first
         
-        
         self.current_report_date = report_dates[0]
         self.previous_report_date = report_dates[1]
-        #print(self.current_report_date)
-        #print(self.previous_report_date)
+        print(self.current_report_date)
+        print(self.previous_report_date)
         
         self.current_filing_date = filing_dates[0]
         self.previous_filing_date = filing_dates[1]
+        if self.current_report_date == self.previous_report_date:
+            return False
         #print(self.current_filing_date)
         #print(self.previous_filing_date)
         #print (filing_dates) 
@@ -271,7 +275,7 @@ class Portfolio:
         self.data_recent_additions = dataDiff_additions.sort_values(by='value_current_perc', ascending=False)
         
         
-        return
+        return True
     
     
     def plot_recent_shares_change(self, data):
@@ -355,8 +359,8 @@ class Portfolio:
                      + str(self.previous_report_date) +" (previous)\n", fontweight="bold")
         ax.set_ylabel('Stocks (sorted by weigth (fractional value) within portfolio)',fontweight="bold")
         ax.set_xlabel('Percentage',fontweight="bold")
-        #plt.show()
-        plt.savefig(self.Name + str(self.current_report_date))
+        plt.show()
+        #plt.savefig(self.Name + str(self.current_report_date))
         return
 
 

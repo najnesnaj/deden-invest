@@ -1,0 +1,175 @@
+<SEC-DOCUMENT>0001549575-22-000005.txt : 20220214
+<SEC-HEADER>0001549575-22-000005.hdr.sgml : 20220214
+<ACCEPTANCE-DATETIME>20220214132841
+ACCESSION NUMBER:		0001549575-22-000005
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20211231
+FILED AS OF DATE:		20220214
+DATE AS OF CHANGE:		20220214
+EFFECTIVENESS DATE:		20220214
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Dalal Street, LLC
+		CENTRAL INDEX KEY:			0001549575
+		IRS NUMBER:				202815874
+		STATE OF INCORPORATION:			TX
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-14955
+		FILM NUMBER:		22628831
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1250 S. CAPITAL OF TEXAS HIGHWAY
+		STREET 2:		SUITE 1-520
+		CITY:			AUSTIN
+		STATE:			TX
+		ZIP:			78746-6414
+		BUSINESS PHONE:		1-512-999-7110
+
+	MAIL ADDRESS:	
+		STREET 1:		1250 S. CAPITAL OF TEXAS HIGHWAY
+		STREET 2:		SUITE 1-520
+		CITY:			AUSTIN
+		STATE:			TX
+		ZIP:			78746-6414
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001549575</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>12-31-2021</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>12-31-2021</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>Dalal Street, LLC</name>
+        <address>
+          <street1>1250 S. Capital of Texas Highway</street1>
+          <street2>Suite 1-520</street2>
+          <city>Austin</city>
+          <stateOrCountry>TX</stateOrCountry>
+          <zipCode>78746-6414</zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-14955</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Mohnish Pabrai</name>
+      <title>Managing Member</title>
+      <phone>512-999-7110</phone>
+      <signature>Mohnish Pabrai</signature>
+      <city>Austin</city>
+      <stateOrCountry>TX</stateOrCountry>
+      <signatureDate>02-14-2022</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>1</otherIncludedManagersCount>
+      <tableEntryTotal>3</tableEntryTotal>
+      <tableValueTotal>216627</tableValueTotal>
+      <otherManagers2Info>
+        <otherManager2>
+          <sequenceNumber>1</sequenceNumber>
+          <otherManager>
+            <cik>0001676573</cik>
+            <name>Dhandho Funds LLC</name>
+          </otherManager>
+        </otherManager2>
+      </otherManagers2Info>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>infotable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>MICRON TECHNOLOGY INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>595112103</cusip>
+    <value>148424</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>1593384</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>1593384</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>MICRON TECHNOLOGY INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>595112103</cusip>
+    <value>21464</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>230428</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>OTR</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>230428</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>SERITAGE GROWTH PPTYS</nameOfIssuer>
+    <titleOfClass>CL A</titleOfClass>
+    <cusip>81752R100</cusip>
+    <value>46739</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>3522118</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>3522118</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

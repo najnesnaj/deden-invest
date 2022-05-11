@@ -1,4 +1,4 @@
-```
+```default
 100
 101
 102
@@ -101,7 +101,7 @@
 199
 ```
 
-```
+```default
 {'CIK': '1020317',
  'Company Name': 'PEKIN SINGER STRAUSS ASSET MANAGEMENT /IL',
  'Form Type': '13F-HR/A',

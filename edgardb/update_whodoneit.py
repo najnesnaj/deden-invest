@@ -37,7 +37,7 @@ def updatedb():
         cursor.execute('''SELECT * from whodoneit;''')
         rows = cursor.fetchall()
         for row in rows:
-            with open('Stock_Symbol_CUSIP.csv', 'r') as fin:
+            with open('Stock_Symbol_CUSIP.csv', 'r', encoding="utf-8") as fin:
                 dr = csv.DictReader(fin,delimiter=',')
                 for rij in dr:
                  #print (row['ISIN'],row['Symbol'])

@@ -22,11 +22,11 @@ be a buying opportunity.
 
 \\beta\\Gamma
 
-```
+```default
 2022-01-21
 ```
 
-```
+```default
 <Response [200]>
 [https://sdw-wsrest.ecb.europa.eu/service/data/EXR/D.TRY.EUR.SP00.A?startPeriod=2021-01-01&endPeriod=2022-01-21](https://sdw-wsrest.ecb.europa.eu/service/data/EXR/D.TRY.EUR.SP00.A?startPeriod=2021-01-01&endPeriod=2022-01-21)
 ```
@@ -35,14 +35,14 @@ Hmmm, the response is in XML. Not impossible, but also not the easiest
 format to work within Pandas. Fortunately, the ECB’s API lets us get the
 data in CSV format by specifying it in the header of the request.
 
-```
+```default
 <Response [200]>
 ```
 
 The columns we need are ‘TIME_PERIOD’ for the dates and ‘OBS_VALUE’ for
 the prices. Let’s also do a sanity check on the prices in ‘OBS_VALUE’.
 
-```
+```default
 count    273.000000
 mean      10.782431
 std        2.152224
@@ -132,7 +132,7 @@ for 1 Euro.
 
 The stockmarket came down on monday 20/12.
 
-```
+```default
 <AxesSubplot:xlabel='TIME_PERIOD'>
 ```
 
@@ -166,7 +166,7 @@ everybody and everything else but his beliefs. Brace yourself, Turkey.
 Now we import data from the turkish stock exchange, we use the iShares
 MSCI Turkey.
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
@@ -303,7 +303,7 @@ informed, but how?
 
 *graph is turkish MSCI index in dollar*
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
                     Low
 Date
@@ -321,7 +321,7 @@ Date
 2021-12-21  2103.600098
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -329,11 +329,11 @@ Date
 
 ![image](turkey_files/turkey_27_2.png)
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -341,7 +341,7 @@ Date
 
 ![image](turkey_files/turkey_28_2.png)
 
-```
+```default
 daily spread of  :  13  %
 ```
 
@@ -349,7 +349,7 @@ The big question is : could the exchange-rate rise be a warning? monday
 2021-12-14 16.2092 tuesday 2021-12-15 16.5612 wednesdag 2021-12-16
 17.5824
 
-```
+```default
 6.1662198391420935
 ```
 

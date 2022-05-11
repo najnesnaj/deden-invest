@@ -16,16 +16,16 @@ there is any predictive aspect to this
 
 \\alpha\\beta\\gamma\\Delta\\Gamma
 
-```
+```default
 2022-01-05
 ```
 
-```
+```default
 <Response [200]>
 [https://sdw-wsrest.ecb.europa.eu/service/data/EXR/D.IDR.EUR.SP00.A?startPeriod=2015-12-01&endPeriod=2022-01-05](https://sdw-wsrest.ecb.europa.eu/service/data/EXR/D.IDR.EUR.SP00.A?startPeriod=2015-12-01&endPeriod=2022-01-05)
 ```
 
-```
+```default
 <?xml version="1.0" encoding="UTF-8"?><message:GenericData xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXMessage.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXCommon.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXDataGeneric.xsd">
 <message:Header>
 <message:ID>10b8cdd1-89b5-4cfb-9c92-a809906292e4</message:ID>
@@ -39,18 +39,18 @@ Hmmm, the response is in XML. Not impossible, but also not the easiest
 format to work within Pandas. Fortunately, the ECB’s API lets us get the
 data in CSV format by specifying it in the header of the request.
 
-```
+```default
 <Response [200]>
 ```
 
-```
+```default
 'KEY,FREQ,CURRENCY,CURRENCY_DENOM,EXR_TYPE,EXR_SUFFIX,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,PUBL_ECB,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,COMPILATION,COVERAGE,DECIMALS,NAT_TITLE,SOURCE_AGENCY,SOURCE_PUB,TITLE,TITLE_COMPL,UNIT,UNIT_MULTrnEXR.D.IDR.EUR.SP00.A,D,IDR,EUR,SP00,A,2015-12-01,14641.99,A,,,,P1D,,A,,,,,,,,,,2,,DE2,,Indonesian rupiah/Euro,"ECB reference exchange rate, Indonesian rupiah/Euro, 2:15 pm (C.E.T.)",IDR,0rnEXR.D.IDR.EUR.SP00.A,D,IDR,EUR,SP00,A,2015-12-02,14646.1,A,,,,P1D,,A,,,,,,,,,,2,,DE2,,Indonesian rupiah/Euro,"ECB reference exchange rate, Indonesian rupiah/Euro, 2:15 pm (C.E.T.)",IDR,0rnEXR.D.IDR.EUR.SP00.A,D,IDR,EUR,SP00,A,2015-12-03,14733.44,A,,,,P1D,,A,,,,,,,,,,2,,DE2,,Indonesian rupiah/Euro,"ECB reference exchange rate, Indonesian rupiah/Euro, 2:15 pm (C.E.T.)",IDR,0rnEXR.D.IDR.EUR.SP00.A,D,IDR,EUR,SP00,A,2015-12-04,15094.88,A,,,,P1D,,A,,,,,,,,,,2,,DE2,,Indonesian rupiah/Eur'
 ```
 
 The columns we need are ‘TIME_PERIOD’ for the dates and ‘OBS_VALUE’ for
 the prices. Let’s also do a sanity check on the prices in ‘OBS_VALUE’.
 
-```
+```default
 count     1562.000000
 mean     15992.655090
 std       1005.163041
@@ -65,7 +65,7 @@ Name: OBS_VALUE, dtype: float64
 the spike is the FX - market is 2021-12-20 where you get 20.0434 Lira
 for 1 Euro.
 
-```
+```default
 <AxesSubplot:xlabel='TIME_PERIOD'>
 ```
 
@@ -81,11 +81,11 @@ capital to US/Europe**
 Now we import data from the Indonesian stock exchange, IDX - VanEck
 Vectors Indonesia Index ETF
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -95,11 +95,11 @@ Vectors Indonesia Index ETF
 
 *graph is IDX - VanEck Vectors Indonesia Index ETF*
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -109,11 +109,11 @@ Vectors Indonesia Index ETF
 
 *jakarta stock exchange in Rupiah*
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -134,7 +134,7 @@ percentage*
 
 ![image](indonesia_files/indonesia_31_0.png)
 
-```
+```default
 ---------------------------------------------------------------------------
 
 TypeError                                 Traceback (most recent call last)

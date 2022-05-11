@@ -13,17 +13,17 @@ there is any predictive aspect to this
 
 \\alpha\\beta\\gamma\\Delta\\Gamma
 
-```
+```default
 this report is valid till :  2022-01-26
 ```
 
 Russian rubel against EURO - data taken from ECB
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -37,11 +37,11 @@ MCX Real Time Price. Currency in RUB*
 *is there a way to get a headstart in information about currency : libor
 rate, cds … ?*
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -81,11 +81,11 @@ rate, cds … ?*
 
 * Polyus PJSC PLZL 3.06%
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -95,11 +95,11 @@ rate, cds … ?*
 
 *this is russian rubel against the euro*
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -113,11 +113,11 @@ I can see a spike (bigger than 5%) somewhere in june 2018 and march 2020
 
 Let’s zoom in :
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -125,11 +125,11 @@ Let’s zoom in :
 
 ![image](russia2_files/russia2_26_2.png)
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 

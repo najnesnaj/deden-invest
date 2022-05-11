@@ -1,0 +1,165 @@
+<SEC-DOCUMENT>0001549575-21-000010.txt : 20210813
+<SEC-HEADER>0001549575-21-000010.hdr.sgml : 20210813
+<ACCEPTANCE-DATETIME>20210812215038
+ACCESSION NUMBER:		0001549575-21-000010
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20210630
+FILED AS OF DATE:		20210813
+DATE AS OF CHANGE:		20210812
+EFFECTIVENESS DATE:		20210813
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Dalal Street, LLC
+		CENTRAL INDEX KEY:			0001549575
+		IRS NUMBER:				202815874
+		STATE OF INCORPORATION:			CA
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-14955
+		FILM NUMBER:		211169507
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1220 ROOSEVELT
+		STREET 2:		SUITE 200
+		CITY:			IRVINE
+		STATE:			CA
+		ZIP:			92620-3675
+		BUSINESS PHONE:		949-453-0609
+
+	MAIL ADDRESS:	
+		STREET 1:		1220 ROOSEVELT
+		STREET 2:		SUITE 200
+		CITY:			IRVINE
+		STATE:			CA
+		ZIP:			92620-3675
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001549575</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>06-30-2021</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>06-30-2021</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>Dalal Street, LLC</name>
+        <address>
+          <street1>1220 Roosevelt</street1>
+          <street2>Suite 200</street2>
+          <city>Irvine</city>
+          <stateOrCountry>CA</stateOrCountry>
+          <zipCode>92620-3675</zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-14955</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Mohnish Pabrai</name>
+      <title>Managing Member</title>
+      <phone>949-453-0609</phone>
+      <signature>Mohnish Pabrai</signature>
+      <city>Irvine</city>
+      <stateOrCountry>CA</stateOrCountry>
+      <signatureDate>08-12-2021</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>3</tableEntryTotal>
+      <tableValueTotal>277651</tableValueTotal>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>infotable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>ALIBABA GROUP HLDG LTD</nameOfIssuer>
+    <titleOfClass>SPONSORED ADS</titleOfClass>
+    <cusip>01609W102</cusip>
+    <value>58673</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>258721</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>258721</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>MICRON TECHNOLOGY INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>595112103</cusip>
+    <value>131889</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>1552000</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>1552000</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>SERITAGE GROWTH PPTYS</nameOfIssuer>
+    <titleOfClass>CL A</titleOfClass>
+    <cusip>81752R100</cusip>
+    <value>87089</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>4733118</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>4188609</Sole>
+      <Shared>0</Shared>
+      <None>544509</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

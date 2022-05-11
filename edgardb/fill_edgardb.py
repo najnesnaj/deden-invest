@@ -37,12 +37,12 @@ for i in cik:
     Name_2 = i 
     CIK_1 = cik[i] 
     portfolio_1 = Portfolio(CIK_1,Name_2)
-    portfolio_1.compare_recent_changes()
-    portfolio_1.data_recent.head()
+    if portfolio_1.compare_recent_changes():
+        portfolio_1.data_recent.head()
 #    print(portfolio_1.data_recent)
-    portfolio_1.insertdb(portfolio_1.data_recent)
+        portfolio_1.insertdb(portfolio_1.data_recent)
     #print(portfolio_1.data_recent.info())
-#    portfolio_1.plot_recent_shares_change(portfolio_1.data_recent)
-#    portfolio_1.plot_recent_value_change(portfolio_1.data_recent)
+    portfolio_1.plot_recent_shares_change(portfolio_1.data_recent)
+    portfolio_1.plot_recent_value_change(portfolio_1.data_recent)
 
 

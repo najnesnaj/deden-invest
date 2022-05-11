@@ -22,18 +22,18 @@ be a buying opportunity.
 
 \\beta\\Gamma
 
-```
+```default
 2022-01-26
 ```
 
-```
+```default
 <Response [200]>
 ```
 
 The columns we need are ‘TIME_PERIOD’ for the dates and ‘OBS_VALUE’ for
 the prices. Let’s also do a sanity check on the prices in ‘OBS_VALUE’.
 
-```
+```default
 count    276.000000
 mean      10.830891
 std        2.189987
@@ -123,7 +123,7 @@ for 1 Euro.
 
 The stockmarket came down on monday 20/12.
 
-```
+```default
 <AxesSubplot:xlabel='TIME_PERIOD'>
 ```
 
@@ -157,7 +157,7 @@ everybody and everything else but his beliefs. Brace yourself, Turkey.
 Now we import data from the turkish stock exchange, we use the iShares
 MSCI Turkey.
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
@@ -292,7 +292,7 @@ MSCI Turkey.
 </div>**What is happening on 2021-12-17 ?** People selling of, are well
 informed, but how?
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -302,7 +302,7 @@ informed, but how?
 
 *graph is turkish MSCI index in dollar*
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
                     Low
 Date
@@ -320,7 +320,7 @@ Date
 2021-12-21  2103.600098
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -328,11 +328,11 @@ Date
 
 ![image](turkey2_files/turkey2_21_2.png)
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 
@@ -340,7 +340,7 @@ Date
 
 ![image](turkey2_files/turkey2_22_2.png)
 
-```
+```default
 daily spread of  :  13  %
 ```
 
@@ -348,18 +348,18 @@ The big question is : could the exchange-rate rise be a warning? monday
 2021-12-14 16.2092 tuesday 2021-12-15 16.5612 wednesdag 2021-12-16
 17.5824
 
-```
+```default
 6.1662198391420935
 ```
 
 A currency change of 6 percent in one day? — can I backtest this? Seems
 in March same thing happened.
 
-```
+```default
 [*********************100%***********************]  1 of 1 completed
 ```
 
-```
+```default
 <AxesSubplot:xlabel='Date'>
 ```
 

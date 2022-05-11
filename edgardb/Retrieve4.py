@@ -12,7 +12,8 @@ import os
 import fileinput
 import numpy as np
 import pandas as pd
-from secedgar import filings, FilingType
+#from secedgar import filings, FilingType
+from secedgar.filings import Filing, FilingType
 #import matplotlib
 #matplotlib.use('Qt5Agg')
 #import matplotlib.pyplot as plt
@@ -61,7 +62,8 @@ class RetrieveForm4:
 #                     user_agent="najnesnaj@gmail.com", count=4)
 
         
-        self.filings = filings(cik_lookup=self.CIK,
+        #self.filings = filings(cik_lookup=self.CIK,
+        self.filings = Filing(cik_lookup=self.CIK,
                               #filing_type=FilingType.FILING_13F,
                               filing_type=FilingType.FILING_4,
                               user_agent="najnesnaj@gmail.com",
@@ -69,6 +71,7 @@ class RetrieveForm4:
         
         foldername = 'edgar-type4'
         self.filings.save(foldername)
+        #self.Filing.save(foldername)
         self.directory = foldername + '/' + self.CIK + '/4' # example: "Edgar filings_XML/CIK/13f"
 
 

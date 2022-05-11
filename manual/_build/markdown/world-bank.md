@@ -130,11 +130,11 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
     </tr>
   </tbody>
 </table>
-</div>```
+</div>```default
 273523621.0
 ```
 
-```
+```default
 Series             Year
 GDP (current US$)  1960             NaN
                    1961             NaN

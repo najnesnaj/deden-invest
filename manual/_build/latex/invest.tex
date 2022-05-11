@@ -4,6 +4,11 @@
 \ifdefined\pdfpxdimen
    \let\sphinxpxdimen\pdfpxdimen\else\newdimen\sphinxpxdimen
 \fi \sphinxpxdimen=.75bp\relax
+\ifdefined\pdfimageresolution
+    \pdfimageresolution= \numexpr \dimexpr1in\relax/\sphinxpxdimen\relax
+\fi
+%% let collapsible pdf bookmarks panel have high depth per default
+\PassOptionsToPackage{bookmarksdepth=5}{hyperref}
 
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
@@ -28,34 +33,16 @@
 
 
 
-\usepackage{times}
-\expandafter\ifx\csname T@LGR\endcsname\relax
-\else
-% LGR was declared as font encoding
-  \substitutefont{LGR}{\rmdefault}{cmr}
-  \substitutefont{LGR}{\sfdefault}{cmss}
-  \substitutefont{LGR}{\ttdefault}{cmtt}
-\fi
-\expandafter\ifx\csname T@X2\endcsname\relax
-  \expandafter\ifx\csname T@T2A\endcsname\relax
-  \else
-  % T2A was declared as font encoding
-    \substitutefont{T2A}{\rmdefault}{cmr}
-    \substitutefont{T2A}{\sfdefault}{cmss}
-    \substitutefont{T2A}{\ttdefault}{cmtt}
-  \fi
-\else
-% X2 was declared as font encoding
-  \substitutefont{X2}{\rmdefault}{cmr}
-  \substitutefont{X2}{\sfdefault}{cmss}
-  \substitutefont{X2}{\ttdefault}{cmtt}
-\fi
+\usepackage{tgtermes}
+\usepackage{tgheros}
+\renewcommand{\ttdefault}{txtt}
+
 
 
 \usepackage[Bjarne]{fncychap}
 \usepackage{sphinx}
 
-\fvset{fontsize=\small}
+\fvset{fontsize=auto}
 \usepackage{geometry}
 
 
@@ -73,7 +60,7 @@
 
 
 \title{investment guide}
-\date{Jan 29, 2022}
+\date{May 05, 2022}
 \release{1.0.0}
 \author{jj}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -88,6 +75,8 @@
 \pagestyle{normal}
 \phantomsection\label{\detokenize{index::doc}}
 
+
+\sphinxstepscope
 
 
 \chapter{About}
@@ -117,6 +106,52 @@ This book is automatically generated from Jupyter notebooks that capture realtim
 
 \sphinxAtStartPar
 The purpose is not a weatherforcast but a season\sphinxhyphen{}detection, which could support investment decisions.
+
+\sphinxstepscope
+
+
+\chapter{Deden}
+\label{\detokenize{Deden:deden}}\label{\detokenize{Deden::doc}}
+\sphinxAtStartPar
+Anthony Deden is a money manager for wealthy families.
+He is focused on preserving wealth for the next generation.
+
+\sphinxAtStartPar
+How does he select ?
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+only europe/america/australia/new zealand
+
+\item {} 
+\sphinxAtStartPar
+current ratio of at least one 1 (indicator of solvent)
+(current assets)/(current liabilities)
+
+\item {} 
+\sphinxAtStartPar
+no banks, mortgage, insurance …
+
+\item {} 
+\sphinxAtStartPar
+manageble : not above 10 billion! market cap
+not under 100 million market cap
+
+\item {} 
+\sphinxAtStartPar
+pay divident
+
+\item {} 
+\sphinxAtStartPar
+preferbly partly owned by family (skin in the game)
+
+\item {} 
+\sphinxAtStartPar
+in business for a long time (they will continue to do so)
+
+\end{itemize}
+
+\sphinxstepscope
 
 
 \chapter{EM Indonesia}
@@ -267,7 +302,7 @@ percentage}
 \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{11} \PYG{n}{dftcurstokfil}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{p}{)}
 
 
-\PYG{o}{\PYGZti{}}\PYG{o}{/}\PYG{n}{anaconda3}\PYG{o}{/}\PYG{n}{lib}\PYG{o}{/}\PYG{n}{python3}\PYG{l+m+mf}{.8}\PYG{o}{/}\PYG{n}{site}\PYG{o}{\PYGZhy{}}\PYG{n}{packages}\PYG{o}{/}\PYG{n}{pandas}\PYG{o}{/}\PYG{n}{plotting}\PYG{o}{/}\PYG{n}{\PYGZus{}core}\PYG{o}{.}\PYG{n}{py} \PYG{o+ow}{in} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{*}\PYG{n}{args}\PYG{p}{,} \PYG{o}{*}\PYG{o}{*}\PYG{n}{kwargs}\PYG{p}{)}
+\PYG{o}{\PYGZti{}}\PYG{o}{/}\PYG{n}{anaconda3}\PYG{o}{/}\PYG{n}{lib}\PYG{o}{/}\PYG{n}{python3}\PYG{o}{.}\PYG{l+m+mi}{8}\PYG{o}{/}\PYG{n}{site}\PYG{o}{\PYGZhy{}}\PYG{n}{packages}\PYG{o}{/}\PYG{n}{pandas}\PYG{o}{/}\PYG{n}{plotting}\PYG{o}{/}\PYG{n}{\PYGZus{}core}\PYG{o}{.}\PYG{n}{py} \PYG{o+ow}{in} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{*}\PYG{n}{args}\PYG{p}{,} \PYG{o}{*}\PYG{o}{*}\PYG{n}{kwargs}\PYG{p}{)}
     \PYG{l+m+mi}{970}                     \PYG{n}{data}\PYG{o}{.}\PYG{n}{columns} \PYG{o}{=} \PYG{n}{label\PYGZus{}name}
     \PYG{l+m+mi}{971}
 \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{972}         \PYG{k}{return} \PYG{n}{plot\PYGZus{}backend}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{n}{kind}\PYG{o}{=}\PYG{n}{kind}\PYG{p}{,} \PYG{o}{*}\PYG{o}{*}\PYG{n}{kwargs}\PYG{p}{)}
@@ -275,7 +310,7 @@ percentage}
     \PYG{l+m+mi}{974}     \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{}}\PYG{o}{.}\PYG{n+nv+vm}{\PYGZus{}\PYGZus{}doc\PYGZus{}\PYGZus{}} \PYG{o}{=} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}doc\PYGZus{}\PYGZus{}}
 
 
-\PYG{o}{\PYGZti{}}\PYG{o}{/}\PYG{n}{anaconda3}\PYG{o}{/}\PYG{n}{lib}\PYG{o}{/}\PYG{n}{python3}\PYG{l+m+mf}{.8}\PYG{o}{/}\PYG{n}{site}\PYG{o}{\PYGZhy{}}\PYG{n}{packages}\PYG{o}{/}\PYG{n}{pandas}\PYG{o}{/}\PYG{n}{plotting}\PYG{o}{/}\PYG{n}{\PYGZus{}matplotlib}\PYG{o}{/}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{o}{.}\PYG{n}{py} \PYG{o+ow}{in} \PYG{n}{plot}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{n}{kind}\PYG{p}{,} \PYG{o}{*}\PYG{o}{*}\PYG{n}{kwargs}\PYG{p}{)}
+\PYG{o}{\PYGZti{}}\PYG{o}{/}\PYG{n}{anaconda3}\PYG{o}{/}\PYG{n}{lib}\PYG{o}{/}\PYG{n}{python3}\PYG{o}{.}\PYG{l+m+mi}{8}\PYG{o}{/}\PYG{n}{site}\PYG{o}{\PYGZhy{}}\PYG{n}{packages}\PYG{o}{/}\PYG{n}{pandas}\PYG{o}{/}\PYG{n}{plotting}\PYG{o}{/}\PYG{n}{\PYGZus{}matplotlib}\PYG{o}{/}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{o}{.}\PYG{n}{py} \PYG{o+ow}{in} \PYG{n}{plot}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{n}{kind}\PYG{p}{,} \PYG{o}{*}\PYG{o}{*}\PYG{n}{kwargs}\PYG{p}{)}
      \PYG{l+m+mi}{69}             \PYG{n}{kwargs}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ax}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n+nb}{getattr}\PYG{p}{(}\PYG{n}{ax}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{left\PYGZus{}ax}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{ax}\PYG{p}{)}
      \PYG{l+m+mi}{70}     \PYG{n}{plot\PYGZus{}obj} \PYG{o}{=} \PYG{n}{PLOT\PYGZus{}CLASSES}\PYG{p}{[}\PYG{n}{kind}\PYG{p}{]}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{o}{*}\PYG{o}{*}\PYG{n}{kwargs}\PYG{p}{)}
 \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{71}     \PYG{n}{plot\PYGZus{}obj}\PYG{o}{.}\PYG{n}{generate}\PYG{p}{(}\PYG{p}{)}
@@ -283,7 +318,7 @@ percentage}
      \PYG{l+m+mi}{73}     \PYG{k}{return} \PYG{n}{plot\PYGZus{}obj}\PYG{o}{.}\PYG{n}{result}
 
 
-\PYG{o}{\PYGZti{}}\PYG{o}{/}\PYG{n}{anaconda3}\PYG{o}{/}\PYG{n}{lib}\PYG{o}{/}\PYG{n}{python3}\PYG{l+m+mf}{.8}\PYG{o}{/}\PYG{n}{site}\PYG{o}{\PYGZhy{}}\PYG{n}{packages}\PYG{o}{/}\PYG{n}{pandas}\PYG{o}{/}\PYG{n}{plotting}\PYG{o}{/}\PYG{n}{\PYGZus{}matplotlib}\PYG{o}{/}\PYG{n}{core}\PYG{o}{.}\PYG{n}{py} \PYG{o+ow}{in} \PYG{n}{generate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}
+\PYG{o}{\PYGZti{}}\PYG{o}{/}\PYG{n}{anaconda3}\PYG{o}{/}\PYG{n}{lib}\PYG{o}{/}\PYG{n}{python3}\PYG{o}{.}\PYG{l+m+mi}{8}\PYG{o}{/}\PYG{n}{site}\PYG{o}{\PYGZhy{}}\PYG{n}{packages}\PYG{o}{/}\PYG{n}{pandas}\PYG{o}{/}\PYG{n}{plotting}\PYG{o}{/}\PYG{n}{\PYGZus{}matplotlib}\PYG{o}{/}\PYG{n}{core}\PYG{o}{.}\PYG{n}{py} \PYG{o+ow}{in} \PYG{n}{generate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}
     \PYG{l+m+mi}{284}     \PYG{k}{def} \PYG{n+nf}{generate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{p}{:}
     \PYG{l+m+mi}{285}         \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}args\PYGZus{}adjust}\PYG{p}{(}\PYG{p}{)}
 \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{286}         \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}compute\PYGZus{}plot\PYGZus{}data}\PYG{p}{(}\PYG{p}{)}
@@ -291,7 +326,7 @@ percentage}
     \PYG{l+m+mi}{288}         \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}make\PYGZus{}plot}\PYG{p}{(}\PYG{p}{)}
 
 
-\PYG{o}{\PYGZti{}}\PYG{o}{/}\PYG{n}{anaconda3}\PYG{o}{/}\PYG{n}{lib}\PYG{o}{/}\PYG{n}{python3}\PYG{l+m+mf}{.8}\PYG{o}{/}\PYG{n}{site}\PYG{o}{\PYGZhy{}}\PYG{n}{packages}\PYG{o}{/}\PYG{n}{pandas}\PYG{o}{/}\PYG{n}{plotting}\PYG{o}{/}\PYG{n}{\PYGZus{}matplotlib}\PYG{o}{/}\PYG{n}{core}\PYG{o}{.}\PYG{n}{py} \PYG{o+ow}{in} \PYG{n}{\PYGZus{}compute\PYGZus{}plot\PYGZus{}data}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}
+\PYG{o}{\PYGZti{}}\PYG{o}{/}\PYG{n}{anaconda3}\PYG{o}{/}\PYG{n}{lib}\PYG{o}{/}\PYG{n}{python3}\PYG{o}{.}\PYG{l+m+mi}{8}\PYG{o}{/}\PYG{n}{site}\PYG{o}{\PYGZhy{}}\PYG{n}{packages}\PYG{o}{/}\PYG{n}{pandas}\PYG{o}{/}\PYG{n}{plotting}\PYG{o}{/}\PYG{n}{\PYGZus{}matplotlib}\PYG{o}{/}\PYG{n}{core}\PYG{o}{.}\PYG{n}{py} \PYG{o+ow}{in} \PYG{n}{\PYGZus{}compute\PYGZus{}plot\PYGZus{}data}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}
     \PYG{l+m+mi}{451}         \PYG{c+c1}{\PYGZsh{} no non\PYGZhy{}numeric frames or series allowed}
     \PYG{l+m+mi}{452}         \PYG{k}{if} \PYG{n}{is\PYGZus{}empty}\PYG{p}{:}
 \PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{453}             \PYG{k}{raise} \PYG{n+ne}{TypeError}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{no numeric data to plot}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
@@ -310,6 +345,8 @@ to quit?
 
 \sphinxAtStartPar
 In order to get a clear idea, let’s examine the 2020 covid crisis.
+
+\sphinxstepscope
 
 
 \chapter{EM Russia}
@@ -438,6 +475,8 @@ Polyus PJSC PLZL 3.06\%
 
 \sphinxAtStartPar
 \sphinxstyleemphasis{this is the russian rubel against the dollar}
+
+\sphinxstepscope
 
 
 \chapter{EM Turkey}
@@ -622,110 +661,154 @@ Protection seller has to make up any interest shortfall on the bond
 \sphinxstyleemphasis{is there a way to get a headstart in information about currency : libor
 rate, cds … ?}
 
+\sphinxstepscope
+
 
 \chapter{Buffett}
 \label{\detokenize{Buffett2021-09-30:buffett}}\label{\detokenize{Buffett2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Buffett2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Buffettfractional}
 \label{\detokenize{Buffettfractional2021-09-30:buffettfractional}}\label{\detokenize{Buffettfractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Buffettfractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{Carl}
 \label{\detokenize{Carl2021-09-30:carl}}\label{\detokenize{Carl2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Carl2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Carlfractional}
 \label{\detokenize{Carlfractional2021-09-30:carlfractional}}\label{\detokenize{Carlfractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Carlfractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{Dalio}
 \label{\detokenize{Dalio2021-09-30:dalio}}\label{\detokenize{Dalio2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Dalio2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Daliofractional}
 \label{\detokenize{Daliofractional2021-09-30:daliofractional}}\label{\detokenize{Daliofractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Daliofractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{David\_Tepper}
 \label{\detokenize{David_Tepper2021-09-30:david-tepper}}\label{\detokenize{David_Tepper2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{David_Tepper2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{David\_Tepperfractional}
 \label{\detokenize{David_Tepperfractional2021-09-30:david-tepperfractional}}\label{\detokenize{David_Tepperfractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{David_Tepperfractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{Greenlight\_Einhorn}
 \label{\detokenize{Greenlight_Einhorn2021-09-30:greenlight-einhorn}}\label{\detokenize{Greenlight_Einhorn2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Greenlight_Einhorn2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Greenlight\_Einhornfractional}
 \label{\detokenize{Greenlight_Einhornfractional2021-09-30:greenlight-einhornfractional}}\label{\detokenize{Greenlight_Einhornfractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Greenlight_Einhornfractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{Guy}
 \label{\detokenize{Guy2021-09-30:guy}}\label{\detokenize{Guy2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Guy2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Guyfractional}
 \label{\detokenize{Guyfractional2021-09-30:guyfractional}}\label{\detokenize{Guyfractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Guyfractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{Himalaya\_Li\_Lu}
 \label{\detokenize{Himalaya_Li_Lu2021-09-30:himalaya-li-lu}}\label{\detokenize{Himalaya_Li_Lu2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Himalaya_Li_Lu2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Himalaya\_Li\_Lufractional}
 \label{\detokenize{Himalaya_Li_Lufractional2021-09-30:himalaya-li-lufractional}}\label{\detokenize{Himalaya_Li_Lufractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Himalaya_Li_Lufractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{Mohnish}
 \label{\detokenize{Mohnish2021-09-30:mohnish}}\label{\detokenize{Mohnish2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Mohnish2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Mohnishfractional}
 \label{\detokenize{Mohnishfractional2021-09-30:mohnishfractional}}\label{\detokenize{Mohnishfractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Mohnishfractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{Pershing\_Ackman}
 \label{\detokenize{Pershing_Ackman2021-09-30:pershing-ackman}}\label{\detokenize{Pershing_Ackman2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Pershing_Ackman2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Pershing\_Ackmanfractional}
 \label{\detokenize{Pershing_Ackmanfractional2021-09-30:pershing-ackmanfractional}}\label{\detokenize{Pershing_Ackmanfractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Pershing_Ackmanfractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{Seth}
 \label{\detokenize{Seth2021-09-30:seth}}\label{\detokenize{Seth2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Seth2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{Sethfractional}
 \label{\detokenize{Sethfractional2021-09-30:sethfractional}}\label{\detokenize{Sethfractional2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{Sethfractional2021-09-30}.png}
 
+\sphinxstepscope
+
 
 \chapter{TCI\_Chris}
 \label{\detokenize{TCI_Chris2021-09-30:tci-chris}}\label{\detokenize{TCI_Chris2021-09-30::doc}}
 \noindent\sphinxincludegraphics{{TCI_Chris2021-09-30}.png}
+
+\sphinxstepscope
 
 
 \chapter{TCI\_Chrisfractional}

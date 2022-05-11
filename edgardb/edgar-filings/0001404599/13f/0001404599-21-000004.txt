@@ -1,0 +1,310 @@
+<SEC-DOCUMENT>0001404599-21-000004.txt : 20210517
+<SEC-HEADER>0001404599-21-000004.hdr.sgml : 20210517
+<ACCEPTANCE-DATETIME>20210517164455
+ACCESSION NUMBER:		0001404599-21-000004
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20210331
+FILED AS OF DATE:		20210517
+DATE AS OF CHANGE:		20210517
+EFFECTIVENESS DATE:		20210517
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Aquamarine Capital Management, LLC
+		CENTRAL INDEX KEY:			0001404599
+		IRS NUMBER:				134146996
+		STATE OF INCORPORATION:			NY
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-16833
+		FILM NUMBER:		21931634
+
+	BUSINESS ADDRESS:	
+		STREET 1:		100 CAMBRIDGE STREET
+		STREET 2:		FLOOR 14
+		CITY:			BOSTON
+		STATE:			MA
+		ZIP:			02114
+		BUSINESS PHONE:		212-716-1350
+
+	MAIL ADDRESS:	
+		STREET 1:		100 CAMBRIDGE STREET
+		STREET 2:		FLOOR 14
+		CITY:			BOSTON
+		STATE:			MA
+		ZIP:			02114
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001404599</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>03-31-2021</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>03-31-2021</reportCalendarOrQuarter>
+      <filingManager>
+        <name>Aquamarine Capital Management, LLC</name>
+        <address>
+          <com:street1>100 CAMBRIDGE STREET</com:street1>
+          <com:street2>FLOOR 14</com:street2>
+          <com:city>BOSTON</com:city>
+          <com:stateOrCountry>MA</com:stateOrCountry>
+          <com:zipCode>02114</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-16833</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Orly Hindi</name>
+      <title>Chief Compliance Officer</title>
+      <phone>1-212-716-1350</phone>
+      <signature>Orly Hindi</signature>
+      <city>New York</city>
+      <stateOrCountry>NY</stateOrCountry>
+      <signatureDate>05-17-2021</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>12</tableEntryTotal>
+      <tableValueTotal>191414</tableValueTotal>
+      <isConfidentialOmitted>false</isConfidentialOmitted>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>Aquamarine_13F_2021-Q1.xml
+<DESCRIPTION>AQUAMARINE_13F_2021-Q1
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<informationTable xmlns:ns1="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+	<infoTable>
+		<nameOfIssuer>ALPHABET INC</nameOfIssuer>
+		<titleOfClass>CAP STK CL A</titleOfClass>
+		<cusip>02079K305</cusip>
+		<value>1650</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>800</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>800</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>AMERICAN EXPRESS CO </nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>025816109</cusip>
+		<value>29702</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>210000</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>210000</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>BK OF AMERICA CORP</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>060505104</cusip>
+		<value>29708</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>767845</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>767845</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>BERKSHIRE HATHAWAY INC DEL</nameOfIssuer>
+		<titleOfClass>CL A</titleOfClass>
+		<cusip>084670108</cusip>
+		<value>11571</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>30</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>30</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>BERKSHIRE HATHAWAY INC DEL</nameOfIssuer>
+		<titleOfClass>CL B NEW</titleOfClass>
+		<cusip>084670702</cusip>
+		<value>35919</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>140600</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>140600</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>FERRARI N V</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>N3167Y103</cusip>
+		<value>16736</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>80000</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>80000</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>MASTERCARD INCORPORATED</nameOfIssuer>
+		<titleOfClass>CL A</titleOfClass>
+		<cusip>57636Q104</cusip>
+		<value>23410</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>65750</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>65750</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>MICRON TECHNOLOGY INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>595112103</cusip>
+		<value>17642</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>200000</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>200000</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>MOODYS CORP</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>615369105</cusip>
+		<value>8063</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>27000</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>27000</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>SERITAGE GROWTH PPTYS</nameOfIssuer>
+		<titleOfClass>CL A</titleOfClass>
+		<cusip>81752R100</cusip>
+		<value>9175</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>500000</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>500000</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>TWITTER INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>90184L102</cusip>
+		<value>1909</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>30000</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>30000</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>WELLS FARGO CO NEW</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>949746101</cusip>
+		<value>5929</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>151741</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>151741</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

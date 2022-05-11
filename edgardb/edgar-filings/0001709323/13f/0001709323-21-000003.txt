@@ -1,0 +1,213 @@
+<SEC-DOCUMENT>0001709323-21-000003.txt : 20210517
+<SEC-HEADER>0001709323-21-000003.hdr.sgml : 20210517
+<ACCEPTANCE-DATETIME>20210514182529
+ACCESSION NUMBER:		0001709323-21-000003
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20210331
+FILED AS OF DATE:		20210517
+DATE AS OF CHANGE:		20210514
+EFFECTIVENESS DATE:		20210517
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Himalaya Capital Management LLC
+		CENTRAL INDEX KEY:			0001709323
+		IRS NUMBER:				133978548
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-18090
+		FILM NUMBER:		21926671
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1301 2ND AVENUE
+		STREET 2:		#2100
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		206-707-0768
+
+	MAIL ADDRESS:	
+		STREET 1:		1301 2ND AVENUE
+		STREET 2:		#2100
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001709323</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>03-31-2021</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>03-31-2021</reportCalendarOrQuarter>
+      <filingManager>
+        <name>Himalaya Capital Management LLC</name>
+        <address>
+          <com:street1>1301 2ND AVENUE</com:street1>
+          <com:street2>#2100</com:street2>
+          <com:city>SEATTLE</com:city>
+          <com:stateOrCountry>WA</com:stateOrCountry>
+          <com:zipCode>98101</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-18090</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Paul Teng</name>
+      <title>Chief Compliance Officer</title>
+      <phone>206-707-0768</phone>
+      <signature>Paul Teng</signature>
+      <city>Seattle</city>
+      <stateOrCountry>WA</stateOrCountry>
+      <signatureDate>05-14-2021</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>6</tableEntryTotal>
+      <tableValueTotal>1978262</tableValueTotal>
+      <isConfidentialOmitted>false</isConfidentialOmitted>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>13fq12021.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<informationTable xmlns:ns1="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+	<infoTable>
+		<nameOfIssuer>ALPHABET INC</nameOfIssuer>
+		<titleOfClass>CAP STK CL C</titleOfClass>
+		<cusip>02079K107</cusip>
+		<value>177695</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>85900</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>85900</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>APPLE INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>037833100</cusip>
+		<value>92785</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>759600</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>759600</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>BK OF AMERICA CORP</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>060505104</cusip>
+		<value>478169</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>12358987</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>12358987</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>FACEBOOK INC</nameOfIssuer>
+		<titleOfClass>CL A</titleOfClass>
+		<cusip>30303M102</cusip>
+		<value>168648</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>572600</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>572600</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>MICRON TECHNOLOGY INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>595112103</cusip>
+		<value>1012344</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>11476523</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>11476523</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>PINDUODUO INC</nameOfIssuer>
+		<titleOfClass>SPONSORED ADS</titleOfClass>
+		<cusip>722304102</cusip>
+		<value>48621</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>363165</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>363165</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

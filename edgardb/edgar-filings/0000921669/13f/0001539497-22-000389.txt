@@ -1,0 +1,520 @@
+<SEC-DOCUMENT>0001539497-22-000389.txt : 20220214
+<SEC-HEADER>0001539497-22-000389.hdr.sgml : 20220214
+<ACCEPTANCE-DATETIME>20220214163111
+ACCESSION NUMBER:		0001539497-22-000389
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20211231
+FILED AS OF DATE:		20220214
+DATE AS OF CHANGE:		20220214
+EFFECTIVENESS DATE:		20220214
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ICAHN CARL C
+		CENTRAL INDEX KEY:			0000921669
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			FL
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-04333
+		FILM NUMBER:		22632964
+
+	BUSINESS ADDRESS:	
+		STREET 1:		C/O ICAHN ENTERPRISES L.P.
+		STREET 2:		16690 COLLINS AVE., PH-1
+		CITY:			SUNNY ISLES BEACH
+		STATE:			FL
+		ZIP:			33160
+		BUSINESS PHONE:		305-422-4145
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O ICAHN ENTERPRISES L.P.
+		STREET 2:		16690 COLLINS AVE., PH-1
+		CITY:			SUNNY ISLES BEACH
+		STATE:			FL
+		ZIP:			33160
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	ICAHN CARL C ET AL
+		DATE OF NAME CHANGE:	19950612
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0000921669</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>12-31-2021</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>12-31-2021</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>ICAHN CARL C</name>
+        <address>
+          <street1>C/O ICAHN ENTERPRISES L.P.</street1>
+          <street2>16690 Collins Ave., Ph-1</street2>
+          <city>Sunny Isles Beach</city>
+          <stateOrCountry>FL</stateOrCountry>
+          <zipCode>33160</zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-04333</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Irene S. March</name>
+      <title>Attorney-In-Fact</title>
+      <phone>305-422-4115</phone>
+      <signature>/s/ Irene S. March</signature>
+      <city>Sunny Isles Beach</city>
+      <stateOrCountry>FL</stateOrCountry>
+      <signatureDate>02-14-2022</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>7</otherIncludedManagersCount>
+      <tableEntryTotal>20</tableEntryTotal>
+      <tableValueTotal>22289187</tableValueTotal>
+      <isConfidentialOmitted>true</isConfidentialOmitted>
+      <otherManagers2Info>
+        <otherManager2>
+          <sequenceNumber>1</sequenceNumber>
+          <otherManager>
+            <cik>0001412093</cik>
+            <form13FFileNumber>028-12848</form13FFileNumber>
+            <name>ICAHN CAPITAL LP</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>2</sequenceNumber>
+          <otherManager>
+            <cik>0000945612</cik>
+            <form13FFileNumber>028-04970</form13FFileNumber>
+            <name>HIGH COAST LIMITED PARTNERSHIP</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>3</sequenceNumber>
+          <otherManager>
+            <cik>0000928475</cik>
+            <form13FFileNumber>028-04460</form13FFileNumber>
+            <name>HIGHCREST INVESTORS LLC</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>4</sequenceNumber>
+          <otherManager>
+            <cik>0001315356</cik>
+            <form13FFileNumber>028-11469</form13FFileNumber>
+            <name>GASCON PARTNERS</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>5</sequenceNumber>
+          <otherManager>
+            <cik>0001257325</cik>
+            <form13FFileNumber>028-13170</form13FFileNumber>
+            <name>THORNWOOD ASSOCIATES LIMITED PARTNERSHIP</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>6</sequenceNumber>
+          <otherManager>
+            <cik>0001327741</cik>
+            <form13FFileNumber>028-12621</form13FFileNumber>
+            <name>CCI ONSHORE LLC</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>7</sequenceNumber>
+          <otherManager>
+            <cik>0001830292</cik>
+            <form13FFileNumber>028-20387</form13FFileNumber>
+            <name>IEP Energy Holding LLC</name>
+          </otherManager>
+        </otherManager2>
+      </otherManagers2Info>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>infotable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>Bausch Health Companies Inc.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>071734107</cusip>
+    <value>958650</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>34721118</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>34721118</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Cheniere Energy Inc</nameOfIssuer>
+    <titleOfClass>COM NEW</titleOfClass>
+    <cusip>16411R208</cusip>
+    <value>1639820</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>16168606</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>16168606</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Conduent Inc</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>206787103</cusip>
+    <value>203717</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>38149336</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>38149336</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>CVR Energy Inc</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>12662P108</cusip>
+    <value>1196850</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>71198718</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>7</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>71198718</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Dana Inc.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>235825205</cusip>
+    <value>326018</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>14286505</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>14286505</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Delek US Holdings, Inc.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>24665A103</cusip>
+    <value>104657</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>6981800</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>7</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>6981800</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>FirstEnergy Corp</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>337932107</cusip>
+    <value>788869</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>18967757</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>18967757</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Herc Holdings Inc</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>42704L104</cusip>
+    <value>629776</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>4022841</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>4022841</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>6125047</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>123513759</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>2</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>123513759</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>1427619</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>28788442</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>3</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>28788442</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>2970128</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>59893683</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>6</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>59893683</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>1749171</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>35272655</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>4</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>35272655</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>475009</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>9578721</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>5</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>9578721</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Newell Brands, Inc</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>651229106</cusip>
+    <value>954509</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>43704616</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>43704616</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Occidental Petroleum Corp</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>674599105</cusip>
+    <value>1304560</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>45000346</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>45000346</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Occidental Petroleum Corp Wts</nameOfIssuer>
+    <titleOfClass>*W</titleOfClass>
+    <cusip>674599162</cusip>
+    <value>189205</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>15004326</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>15004326</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>SandRidge Energy, Inc.</nameOfIssuer>
+    <titleOfClass>COM NEW</titleOfClass>
+    <cusip>80007P869</cusip>
+    <value>50405</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>4818832</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>4818832</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Southwest Gas Holdings Inc.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>844895102</cusip>
+    <value>203052</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>2898676</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>2898676</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Welbilt Inc</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>949090104</cusip>
+    <value>265044</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>11150368</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>11150368</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Xerox Holdings Corporation</nameOfIssuer>
+    <titleOfClass>COM NEW</titleOfClass>
+    <cusip>984121608</cusip>
+    <value>727081</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>32114891</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>32114891</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
