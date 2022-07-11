@@ -22,7 +22,7 @@ def checkvalue():
             flget = float(getal)        
 	    #select a minimum amount of money invested
             if (flget>4000):
-                if ((row[2] != "AKA.BR") & (row[2] != "EMPTY") & (row[2] != "ALAVY.BR")):
+                if ((row[2] != "AKA.BR") & (row[2] != "EMPTY") & (row[2] != "ALAVY.BR") & (row[2] != "MLTV.BR") & (row[2] != "ALVET.BR")):
                     cleandate =  (row[6].replace('00:00:00','').strip())
                     dftoday = yf.download(row[2].strip(),start=cleandate,end=today)
                     lengtedf = len(dftoday) - 1

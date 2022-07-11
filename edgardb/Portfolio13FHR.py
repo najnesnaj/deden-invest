@@ -359,8 +359,8 @@ class Portfolio:
                      + str(self.previous_report_date) +" (previous)\n", fontweight="bold")
         ax.set_ylabel('Stocks (sorted by weigth (fractional value) within portfolio)',fontweight="bold")
         ax.set_xlabel('Percentage',fontweight="bold")
-        plt.show()
-        #plt.savefig(self.Name + str(self.current_report_date))
+        #plt.show()
+        plt.savefig(self.Name + str(self.current_report_date))
         return
 
 
