@@ -13,21 +13,23 @@ def insertdb(transrecord):
 
 #        for i in enumerate(transrecord):
     try: 
-        cursor.execute('''INSERT INTO compinfo( 
+        cursor.execute('''INSERT INTO garpinfo( 
         "symbol" ,
         "name"    ,
         "sector"     ,
-        "PE"  ,
+        "trailingPE"  ,
         "EPS"        ,
         "price/book"    ,
-        "regularMarketPrice"   ,
+        "totalCashPerShare"   ,
         "forwardPE"   ,
         "totalDebt"   ,
+        "currentRatio"   ,
         "growthrate"  ,
-        "priceEstimate" ,
+        "beta" ,
+        "priceToSalesTrailing12Months", 
         "color" ,
         "extrainfo"     
-        ) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)''' , (transrecord[0:13]))
+        ) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''' , (transrecord[0:15]))
 
         conn.commit()
     except sqlite3.Error as error:
@@ -64,6 +66,8 @@ def check_ticker():
             transrecord=[]
             transrecord.append(rij['symbol'])
             transrecord.append(rij['name'])
+            transrecord.append(0)
+            transrecord.append(0)
             transrecord.append(0)
             transrecord.append(0)
             transrecord.append(0)

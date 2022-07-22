@@ -56,7 +56,7 @@ def update_compinfo_yahoo():
     conn = sqlite3.connect('stock/ticker.db')
     cursor = conn.cursor()
     try:
-        cursor.execute('''SELECT * from compinfo where rowid > 53223''')
+        cursor.execute('''SELECT * from compinfo where rowid > 81674''')
         rows = cursor.fetchall()
         for row in rows:
             #cursor.execute('''update compinfo set color = (?) where symbol = (?)''', ("", row[0])) 
