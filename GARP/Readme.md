@@ -1,13 +1,12 @@
 ## README ##
 
-############################################################################
+################################################################
 GARP: Growth at a Reasonable Price
-############################################################################
+################################################################
 
-#this is an American EFT which tracks small cap value internationally: 
-#https://us.dimensional.com/funds/international-small-cap-value
+TODO : the growth aspect how to forcast growth??
 
-## Filtering ##
+
 
 - as a proof of concept I've used Belgium based companies
 

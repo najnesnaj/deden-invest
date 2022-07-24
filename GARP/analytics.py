@@ -32,22 +32,26 @@ def update_compinfo_extrainfo():
                 if (float(row[3]) < 10 ):
                 #trailing PE smaller than 10 is OK 
                     score = score + 1
-            if (row[4] > 0):
+            if (type(row[4]) != type(None) ):
+                if (row[4] > 0):
                 #earnings per share positive
-                score = score + 1
-            if (row[5] < 1):
+                    score = score + 1
+            if (type(row[5]) != type(None) ):
+                if (row[5] < 1):
                 #price smaller than book
-                score = score + 1
+                    score = score + 1
             if (type(row[9]) != type(None) ):
                 if (float(row[9]) > 1.3):
                     #currentRatio assets bigger than liabilities
                     score = score + 1
-            if (row[11] < 1):
+            if (type(row[11]) != type(None) ):
+                if (row[11] < 1):
                 #beta is smaller than 1
-                score = score + 1
-            if (row[12] < 1):
+                    score = score + 1
+            if (type(row[12]) != type(None) ):
+                if (row[12] < 1):
                 #price to sales : smaller is better
-                score = score + 1
+                    score = score + 1
             cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', (score, row[0])) 
 #            if (score > 3):
 #                cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', ("TOP", row[0])) 
