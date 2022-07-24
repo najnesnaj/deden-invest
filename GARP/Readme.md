@@ -4,34 +4,42 @@
 GARP: Growth at a Reasonable Price
 ############################################################################
 
-this is an American EFT which tracks small cap value internationally: 
-https://us.dimensional.com/funds/international-small-cap-value
+#this is an American EFT which tracks small cap value internationally: 
+#https://us.dimensional.com/funds/international-small-cap-value
 
 ## Filtering ##
 
-- first raw filter gets 3000 lines which sometimes contain name of company.
-
-- next we need to link a ticker symbol to the name
-
 - as a proof of concept I've used Belgium based companies
+
+## scripts ##
+
+- tickers in the files tickers.csv are used
+
+- a database is filled from tickers in tickers.csv with insert_ticker.py  
+- next, relevant data is updated with update_ticker.py
+
+- finally analytics.py checks criterea and gives a score (the higher the better)
 
 ## Criteria ##
 
-- P/E ratios that are below both their historical earnings growth and their forecast earnings growth
 
-- low debt
 
-- has to be around for some time (statistics)
+- P/E ratios lower than 10 
 
 - the price-to-book value (P/B) ratio 
 (P/B ratios under 1 are typically considered solid investments)
 
-- EPS (earnings per share)
+- EPS (earnings per share) positive
 
-- earnings estimate
+- beta smaller than 1 considered a plus (low volatility) 
 
+- current ratio bigger than 1 : assets are bigger than liabilities
 
+- sales per shares smaller than 1 considered a plus
 
+- free cash per share is indicator for solvency
+
+- I do not like too much debt ...
 
 ###files####
 

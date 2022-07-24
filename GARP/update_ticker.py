@@ -78,7 +78,7 @@ def update_compinfo_yahoo():
                     transrecord.append(0)     
 
                 #transrecord.append(GetCompanyInformation.info['trailingPE'])
-                transrecord.append(GetCompanyInformation.info['forwardEps'])
+                transrecord.append(GetCompanyInformation.info['trailingEps'])
                 transrecord.append(GetCompanyInformation.info['priceToBook'])
                 transrecord.append(GetCompanyInformation.info['totalCashPerShare'])
                 transrecord.append(GetCompanyInformation.info['forwardPE'])

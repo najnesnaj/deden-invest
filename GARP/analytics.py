@@ -28,12 +28,13 @@ def update_compinfo_extrainfo():
                 print ("finance found")
                 #cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', ("FINANCIALS", row[0])) 
             if (type(row[3]) != type(None) and type(row[7]) != type(None)):
-                if (float(row[3]) > float(row[7])):
-                #forward PE smaller than current PE = improvement
+                #if (float(row[3]) > float(row[7])):
+                if (float(row[3]) < 10 ):
+                #trailing PE smaller than 10 is OK 
                     score = score + 1
-            #if (row[4] > 0):
+            if (row[4] > 0):
                 #earnings per share positive
-           #     score = score + 1
+                score = score + 1
             if (row[5] < 1):
                 #price smaller than book
                 score = score + 1
@@ -47,12 +48,13 @@ def update_compinfo_extrainfo():
             if (row[12] < 1):
                 #price to sales : smaller is better
                 score = score + 1
-            if (score > 3):
-                cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', ("TOP", row[0])) 
-            elif (score == 3):
-                cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', ("ALMOST TOP", row[0])) 
-            else:
-                cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', ("FLOP", row[0])) 
+            cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', (score, row[0])) 
+#            if (score > 3):
+#                cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', ("TOP", row[0])) 
+#            elif (score == 3):
+#                cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', ("ALMOST TOP", row[0])) 
+#            else:
+#                cursor.execute('''update garpinfo set extrainfo = (?) where symbol = (?)''', ("FLOP", row[0])) 
 
 #            if (row[3] > row[7]):
 
