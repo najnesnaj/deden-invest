@@ -60,7 +60,7 @@ def insertdb(transrecord):
 def check_ticker():
 #    try:
     print ("test")
-    with open('tickers.csv', 'r') as fin:
+    with open('paris.csv', 'r') as fin:
         dr = csv.DictReader(fin,delimiter=';')
         for rij in dr:
             transrecord=[]

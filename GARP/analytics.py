@@ -40,13 +40,21 @@ def update_compinfo_extrainfo():
                 if (row[5] < 1):
                 #price smaller than book
                     score = score + 1
+            if (type(row[6]) != type(None) ):
+                if (row[6] > .5):
+                #tangible value > 50 percent
+                    score = score + 1
+            if (type(row[8]) != type(None) ):
+                if (row[8] < .5):
+                #realdebt smaller than 50 percent
+                    score = score + 1
             if (type(row[9]) != type(None) ):
                 if (float(row[9]) > 1.3):
                     #currentRatio assets bigger than liabilities
                     score = score + 1
             if (type(row[11]) != type(None) ):
-                if (row[11] < 1):
-                #beta is smaller than 1
+                if (row[11] < 1.2):
+                #beta is smaller than 1.2
                     score = score + 1
             if (type(row[12]) != type(None) ):
                 if (row[12] < 1):

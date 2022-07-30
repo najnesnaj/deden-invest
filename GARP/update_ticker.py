@@ -8,7 +8,7 @@ MIT License
 import sqlite3
 from datetime import datetime
 import yfinance as yahooFinance
-
+import pandas as pd
 
 #update the table with companydata
 # no finance , assurance
@@ -33,7 +33,7 @@ def updatedb(transrecord):
         "trailingPE" = ?       ,
         "EPS"  = ?  ,
         "price/book" = ?  ,
-        "totalCashPerShare" = ?  ,
+        "TangibleValuePerShare" = ?  ,
         "forwardPE"  = ? ,
         "totalDebt" = ?, 
         "currentRatio" = ?, 
@@ -52,7 +52,6 @@ def updatedb(transrecord):
 
 
 
-
 def update_compinfo_yahoo():
     conn = sqlite3.connect('garpstock/garp.db')
     cursor = conn.cursor()
@@ -63,33 +62,85 @@ def update_compinfo_yahoo():
             #cursor.execute('''update compinfo set color = (?) where symbol = (?)''', ("", row[0])) 
             print (row[0])
             GetCompanyInformation = yahooFinance.Ticker(row[0])
-            #print (GetCompanyInformation.info)
-            infothere = len(GetCompanyInformation.info)
-            print ("lengte", infothere)
-            if (infothere > 115):
-                transrecord=[]
-                transrecord.append(row[0])
-                transrecord.append(GetCompanyInformation.info['longName'])
-                transrecord.append(GetCompanyInformation.info['sector'])
-                try:
-                    trailingPE = GetCompanyInformation.info['trailingPE']
-                    transrecord.append(trailingPE)     
-                except KeyError:
-                    transrecord.append(0)     
+            infolen =  len(GetCompanyInformation.info)
+            print ("lengte")
+            print (infolen)
+            if (infolen > 149):
+            #print (GetCompanyInformation.balance_sheet['Net Tangible Assets'])
+            #print (GetCompanyInformation.balance_sheet.keys())
+                pnl = GetCompanyInformation.financials
+                bs = GetCompanyInformation.balance_sheet
+                cf = GetCompanyInformation.cashflow
+#            fs = pd.concat([pnl, bs, cf])
+            #transposedfs = fs.T
+                transposedfs = bs.T
+                financials = pnl.T
+                cashflow = cf.T
+                col_name = 'Net Tangible Assets'
+            #col_name = 'Total Stockholder Equity'
+            # OPGELET !!!! deze index verandert ieder jaar !!!!!!!!
+             #   date = '2021-12-31' 
+             # nu index 0 gebruikt is beter, maar de kolompositie is risico ....
 
-                #transrecord.append(GetCompanyInformation.info['trailingPE'])
-                transrecord.append(GetCompanyInformation.info['trailingEps'])
-                transrecord.append(GetCompanyInformation.info['priceToBook'])
-                transrecord.append(GetCompanyInformation.info['totalCashPerShare'])
-                transrecord.append(GetCompanyInformation.info['forwardPE'])
-                transrecord.append(GetCompanyInformation.info['debtToEquity'])
-                transrecord.append(GetCompanyInformation.info['currentRatio'])
-                transrecord.append(GetCompanyInformation.info['earningsGrowth'])
-                transrecord.append(GetCompanyInformation.info['beta'])
-                transrecord.append(GetCompanyInformation.info['priceToSalesTrailing12Months'])
-                print (transrecord)
-                updatedb (transrecord)
-           
+            #print(financials.columns)
+            #print(transposedfs.columns)
+            #print(cashflow.columns)
+                if (type(GetCompanyInformation.info['totalDebt']) != type(None) ):
+                    totaleschuld = GetCompanyInformation.info['totalDebt']
+                else:
+                    totaleschuld = 9999999999999999
+                try:
+                    echtewaarde = (transposedfs.iloc[0,22])
+                except IndexError:
+                    echtewaarde = 0 
+                #echtewaarde = (transposedfs.loc[date,col_name].iat[0])
+                aantalaandelen = GetCompanyInformation.info['sharesOutstanding']
+                prijs = GetCompanyInformation.info['currentPrice']
+                if (type(aantalaandelen) != type(None)) : 
+                    if (aantalaandelen > 0):
+                        waardeperaandeel = (echtewaarde/aantalaandelen)
+                        schuldperaandeel = (totaleschuld/aantalaandelen)
+                    else:
+                        waardeperaandeel = -99999999999 
+                        schuldperaandeel = 99999999999
+                else : 
+                    aantalaandelen = 0
+                    waardeperaandeel = 0
+                if (prijs > 0):
+                    realvalue = waardeperaandeel / prijs
+                    realdebt = schuldperaandeel / prijs
+                else: 
+                     realvalue = 99999
+                     realdebt = 99999
+                print (realvalue)
+                infothere = len(GetCompanyInformation.info)
+                #print ("lengte", infothere)
+                if (infothere > 115):
+                    transrecord=[]
+                    transrecord.append(row[0])
+                    transrecord.append(GetCompanyInformation.info['longName'])
+                    transrecord.append(GetCompanyInformation.info['sector'])
+                    try:
+                        trailingPE = GetCompanyInformation.info['trailingPE']
+                        transrecord.append(trailingPE)     
+                    except KeyError:
+                        transrecord.append(0)     
+    
+                    #transrecord.append(GetCompanyInformation.info['trailingPE'])
+                    transrecord.append(GetCompanyInformation.info['trailingEps'])
+                    transrecord.append(GetCompanyInformation.info['priceToBook'])
+                    #transrecord.append(GetCompanyInformation.info['totalCashPerShare'])
+                    transrecord.append(realvalue)
+                    transrecord.append(GetCompanyInformation.info['forwardPE'])
+                    #transrecord.append(GetCompanyInformation.info['debtToEquity'])
+                    transrecord.append(realdebt)
+                    transrecord.append(GetCompanyInformation.info['currentRatio'])
+                    transrecord.append(GetCompanyInformation.info['earningsGrowth'])
+                    transrecord.append(GetCompanyInformation.info['beta'])
+                    transrecord.append(GetCompanyInformation.info['priceToSalesTrailing12Months'])
+                    print (transrecord)
+                    updatedb (transrecord)
+               
     except sqlite3.Error as error:
         print("Error  sqlite", error)
 

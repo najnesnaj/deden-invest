@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS "garpinfo" (
 	"trailingPE"	REAL,
 	"EPS"	REAL,
 	"Price/book"	REAL,
-	"totalCashPerShare"	REAL,
+	"TangibleValuePerShare"	REAL,
 	"forwardPE"	REAL,
 	"totalDebt"	REAL,
 	"currentRatio"	REAL,

@@ -1,15 +1,11 @@
-symbol;name;sector;PE;EPS;Price/book;regularMarketPrice;forwardPE;totalDebt;gro
-wthrate;priceEstimate;color;extrainfo
+symbol;name;sector;PE;EPS;Price/book;regularMarketPrice;forwardPE;totalDebt;gro wthrate;priceEstimate;color;extrainfo 
 ABI.BR;
 ABO.BR;
-ACPH.BR;
 ACCB.BR;
 ACKB.BR;
-ADVIC.BR;
 AED.BR;
 AGS.BR;
 AGFB.BR;
-AD.BR;
 AKA.BR;
 ANT.BR;
 APAM.BR;
